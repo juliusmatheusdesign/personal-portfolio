@@ -13,6 +13,7 @@
   <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
   <!----------------------------- SCRIPT ----------------------------->
   <script src="https://cdn.jsdelivr.net/npm/less" defer></script>
+  <script src="./assets/scripts/menu-fixed.js" defer></script>
   <title>Julius Matheus | Designer Gráfico</title>
 </head>
 
@@ -20,17 +21,19 @@
   <!--------------------- HEADER ------------------------>
   <div id="container">
     <header class="header">
-      <div class="brand-menu-container">
-        <a href="#home" class="logo-menu">JULIUS MATHEUS</a>
+      <div class="bg-menu" id="navbar">
+        <div class="brand-menu-container">
+          <a href="#home" class="logo-menu">JULIUS MATHEUS</a>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="cv">Currículo</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul class="menu">
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#about">Sobre mim</a></li>
-          <li><a href="#contact">Contato</a></li>
-          <li><a href="cv">Currículo</a></li>
-        </ul>
-      </nav>
     </header>
     <main class="main">
       <section class="home" id="home">
@@ -47,6 +50,12 @@
               campanhas de e-commerce para B2B e B2C, além de e-mails marketing. Tenho domínio de ferramentas como
               Photoshop, Illustrator, Figma, WordPress e VTEX, além de habilidades técnicas em HTML, CSS e JavaScript.
             </p>
+            <div class="companies-work">
+              <img class="company-logo" src="./assets/images/Logo Fujioka.svg" alt="Fujioka Distribuidor">
+              <img class="company-logo" src="./assets/images/Logo Vivir.svg" alt="Vivir SemiJoias">
+              <img class="company-logo" src="./assets/images/Logo Gelissa.svg" alt="Gelissa">
+              <img class="company-logo" src="./assets/images/Logo Visage.svg" alt="Visage">
+            </div>
           </div>
         </div>
         <div class="area-grid-2">
@@ -56,6 +65,38 @@
         </div>
       </section>
     </main>
+    <section id="projects" class="projects">
+      <div class="content-works">
+        <div class="work-1">
+          <a href="http://"><img src="./assets/images/foto-do-projeto.png" alt="Redesign do Fujioka Distribuidor" class="work-image"></a>
+          <p class="tag-work">REDESIGN · E-COMMERCE</p>
+          <a href="http://"><h5>Solucionando problemas dos usuários em um e-commerce B2B</h5></a>
+        </div>
+        <div class="work-2">
+          <a href="http://">
+            <img src="./assets/images/foto-do-projeto.png" alt="Redesign do Fujioka Distribuidor"
+              class="work-image"></a>
+          <p class="tag-work">MARCA · IDENTIDADE VISUAL</p>
+          <a href="http://"><h5>Alinhando a presença física e digital de
+            uma marca de semijoia</h5></a>
+        </div>
+        <div class="work-3">
+          <a href="http://"><img src="./assets/images/foto-do-projeto.png" alt="Redesign do Fujioka Distribuidor"
+            class="work-image"></a>
+          <p class="tag-work">MARCA · IDENTIDADE VISUAL</p>
+          <a href="http://"><h5>Alinhando a presença física e digital
+            de uma marca de vestuário feminino</h5></a>
+        </div>
+        <div class="work-4">
+          <a href="http://"><img src="./assets/images/foto-do-projeto.png" alt="Redesign do Fujioka Distribuidor"
+            class="work-image"></a>
+          <p class="tag-work">MARCA · IDENTIDADE VISUAL</p>
+          <a href="http://"><h5>Alinhando a presença física e digital de
+            uma marca de semijoia</h5></a>
+        </div>
+        <a href="http://" class="projects-btn">Confira outros projetos</a>
+      </div>
+    </section>
   </div>
 
 </body>
