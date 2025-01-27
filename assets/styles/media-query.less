@@ -2,10 +2,362 @@
 
 @import url(root.less);
 
-// Max-width 1440px
+// Max-width 1440
 
 @media only screen and (max-width:1440px) {
   .main .home .area-grid-2 .tag-identidade-visual {
     right: 5%;
+  }
+}
+
+// Max-width 1024
+
+@media only screen and (max-width: 1024px) {
+  #container {
+    display: flex;
+    padding: 0 2.5rem 0 2.5rem;
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    .header {
+      max-width: 1024px;
+    }
+
+    .main {
+      display: flex;
+      padding: 6rem 0 7.5rem 0;
+
+      .home {
+        display: flex;
+        justify-items: baseline;
+        gap: 6.31rem;
+
+        .area-grid-1 {
+          .content-home {
+            .tag-home {
+              font-size: 2rem;
+            }
+
+            .title-home {
+              font-size: 4rem;
+            }
+
+            .role-home {
+              font-size: 1rem;
+            }
+
+            p {
+              font-size: 1rem;
+              max-width: 28.6875rem;
+            }
+          }
+        }
+
+        .area-grid-2 {
+          .photo {
+            .home-img {
+              max-width: 24rem;
+              max-height: 39.0625rem;
+            }
+          }
+
+          .tag-ux-ui-design,
+          .tag-identidade-visual,
+          .tag-developer-front-end {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .projects {
+      .content-works {
+        gap: 1rem;
+        padding: 1rem 0 7.5rem 0;
+
+        .work-1 {
+          max-width: 29rem;
+        }
+
+        .tag-work {
+          font-size: 0.75rem;
+        }
+
+        h5 {
+          font-size: 1.25rem;
+        }
+
+        .work-image {
+          max-width: 28rem;
+        }
+      }
+    }
+
+    .about {
+      padding: 1rem 0 7.5rem 0;
+
+      .content-about {
+        gap: 1rem;
+
+        .about-grid-1 {
+          gap: 1rem;
+
+          .about-photo {
+            width: 29rem;
+          }
+
+          .content-about-grid-1 {
+            .tag-about {
+              font-size: 1.5rem;
+              padding-bottom: 0.5rem;
+            }
+
+            .nome-about {
+              font-size: 2rem;
+              padding-bottom: 1rem;
+              max-width: 29rem;
+            }
+
+            .desc-about {
+              font-size: 1rem;
+              max-width: 29rem;
+            }
+          }
+        }
+
+        .about-grid-2 {
+          .content-about-grid-2 {
+            gap: 1rem;
+
+            .about-grid-2-left {
+              padding-top: 0;
+
+              .sub-title-about-grid-2 {
+                font-size: 1rem;
+              }
+
+              .list-about-2 {
+                width: 29rem;
+                gap: 1rem;
+                padding-bottom: 4rem;
+
+                .spec-list-1 {
+                  max-width: 14rem;
+
+                  p {
+                    font-size: 0.875rem;
+                  }
+                }
+
+                .spec-list-2 {
+                  max-width: 14rem;
+
+                  p {
+                    font-size: 0.875rem;
+                  }
+                }
+              }
+
+              .destaq-content {
+                max-width: 29rem;
+                gap: 1rem;
+
+                .about-school {
+                  max-width: 14rem;
+
+                  .desc-school {
+                    font-size: 0.875rem;
+                  }
+                }
+
+                .about-job {
+                  max-width: 14rem;
+
+                  .desc-job {
+                    font-size: 0.875rem;
+                  }
+                }
+              }
+            }
+
+            .about-grid-2-right {
+              .about-grid-2-photos-1 {
+                gap: 1rem;
+                padding-bottom: 1rem;
+
+                .about-grid-2-right-photo-1,
+                .about-grid-2-right-photo-2 {
+                  max-width: 14rem;
+                  max-height: 14rem;
+                }
+              }
+
+              .about-grid-2-right-photo-3 {
+                max-width: 29rem;
+                max-height: 13.6875rem;
+                ;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contact {
+    max-height: 36.125rem;
+
+    .content-contact {
+      padding-top: 6.5rem;
+      max-width: 54rem;
+
+      .title-contact {
+        font-size: 2rem;
+      }
+    }
+  }
+
+}
+
+// Max-width 768
+
+@media only screen and (max-width: 768px) {
+  #container {
+    max-width: 768px;
+
+    .header {
+      max-width: 768px;
+
+      .bg-menu {
+        padding-bottom: 1rem;
+      }
+    }
+
+    .main {
+      .home {
+        gap: 1rem;
+
+        .area-grid-1 {
+          .content-home {
+            .tag-home {
+              font-size: 1.5rem;
+            }
+
+            .title-home {
+              font-size: 3rem;
+            }
+
+            .role-home {
+              font-size: 0.875rem;
+            }
+
+            p {
+              max-width: 21rem;
+              font-size: 0.875rem;
+            }
+
+            .companies-work {
+              gap: 1.42rem;
+
+              .company-logo {
+                width: 19%;
+              }
+            }
+
+          }
+        }
+
+        .area-grid-2 {
+          .photo {
+            .home-img {
+              max-width: 21rem;
+              max-height: 34.1875rem;
+              object-fit: cover;
+              object-position: center;
+            }
+          }
+        }
+      }
+    }
+
+    .projects {
+      .content-works {
+        padding: 1rem 0 7.75rem 0;
+
+        .work-image {
+          max-width: 21rem;
+        }
+
+        .work-1,
+        .work-2,
+        .work-3,
+        .work-4 {
+          max-width: 21rem;
+        }
+
+        .projects-btn {
+          max-width: 12.5rem;
+          max-height: 3.125rem;
+          padding: 1.13rem 2.12rem;
+          font-size: 0.75rem;
+        }
+
+        .tag-work {
+          font-size: 0.75rem;
+        }
+
+        h5 {
+          font-size: 1.125rem;
+        }
+      }
+    }
+
+    .about {
+      .content-about {
+        .about-grid-1 {
+          .about-photo {
+            max-width: 21rem;
+            max-height: 23.6875rem;
+            object-fit: cover;
+            object-position: center;
+          }
+
+          .content-about-grid-1 {
+            .tag-about {
+              font-size: 1.5rem;
+            }
+
+            .nome-about {
+              font-size: 1.5rem;
+              max-width: 21rem;
+            }
+
+            .desc-about {
+              font-size: 0.875rem;
+              max-width: 21rem;
+            }
+          }
+        }
+        .about-grid-2 {
+          .content-about-grid-2 {
+            .about-grid-2-left {
+
+            }
+            .about-grid-2-right {
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  ul.menu {
+    display: none !important;
+  }
+
+  .hamburger {
+    display: block !important;
   }
 }
