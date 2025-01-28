@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Selecione os elementos para animar
-    sr.reveal('.header, .home, .projects, .about', { origin: 'top' });
+    sr.reveal('.home, .projects, .about', { origin: 'top' });
     sr.reveal('.area-grid-1', { origin: 'left', interval: 200 });
     sr.reveal('.work-1, .work-2, .work-3, .work-4', { origin: 'bottom', interval: 100 });
     sr.reveal('.content-about, .about-grid-1, .about-grid-2', { origin: 'right', interval: 200 });
