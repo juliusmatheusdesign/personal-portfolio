@@ -2,11 +2,41 @@
 
 @import url(root.less);
 
+//Max-width 2560
+
+@media only screen and (max-width: 2560px) {
+  .main .home .area-grid-2 .tag-ux-ui-design {
+    right: 40%;
+    top: 26%;
+  }
+
+  .main .home .area-grid-2 .tag-identidade-visual {
+    top: 36%;
+    right: 25%;
+  }
+
+  .main .home .area-grid-2 .tag-developer-front-end {
+    top: 50%;
+    right: 39%;
+  }
+}
+
 // Max-width 1440
 
 @media only screen and (max-width:1440px) {
+  .main .home .area-grid-2 .tag-ux-ui-design {
+    right: 33%;
+    top: 36%;
+  }
+
   .main .home .area-grid-2 .tag-identidade-visual {
+    top: 50%;
     right: 5%;
+  }
+
+  .main .home .area-grid-2 .tag-developer-front-end {
+    top: 69%;
+    right: 29%;
   }
 }
 
@@ -62,10 +92,19 @@
             }
           }
 
-          .tag-ux-ui-design,
-          .tag-identidade-visual,
+          .tag-ux-ui-design {
+            right: 33%;
+            top: 36%;
+          }
+
+          .tag-identidade-visual {
+            top: 50%;
+            right: 0.5%;
+          }
+
           .tag-developer-front-end {
-            display: none;
+            top: 69%;
+            right: 26%;
           }
         }
       }
@@ -89,7 +128,7 @@
         }
 
         .work-image {
-          max-width: 28rem;
+          max-width: 29rem;
         }
       }
     }
@@ -277,6 +316,16 @@
               object-position: center;
             }
           }
+
+          .tag-ux-ui-design {
+            right: 32%;
+            top: 34%;
+          }
+
+          .tag-developer-front-end {
+            top: 69%;
+            right: 23%;
+          }
         }
       }
     }
@@ -339,16 +388,80 @@
             }
           }
         }
+
         .about-grid-2 {
           .content-about-grid-2 {
             .about-grid-2-left {
+              .list-about-2 {
+                max-width: 21rem;
+                padding-bottom: 2.5rem;
 
+                .spec-list-1 {
+                  max-width: 10rem;
+
+                  p {
+                    font-size: 0.75rem;
+                  }
+                }
+
+                .spec-list-2 {
+                  max-width: 10rem;
+
+                  p {
+                    font-size: 0.75rem;
+                  }
+                }
+              }
+
+              .destaq-content {
+                max-width: 21rem;
+
+                .about-school {
+                  max-width: 10rem;
+
+                  .desc-school {
+                    font-size: 0.75rem;
+                  }
+                }
+
+                .about-job {
+                  max-width: 10rem;
+
+                  .desc-job {
+                    font-size: 0.75rem;
+                  }
+                }
+              }
             }
-            .about-grid-2-right {
 
+            .about-grid-2-right {
+              .about-grid-2-photos-1 {
+                .about-grid-2-right-photo-1 {
+                  max-width: 10rem;
+                }
+
+                .about-grid-2-right-photo-2 {
+                  max-width: 10rem;
+                }
+              }
+
+              .about-grid-2-right-photo-3 {
+                max-width: 21rem;
+              }
             }
           }
         }
+      }
+    }
+  }
+
+  .contact {
+    .content-contact {
+      padding: 6.62rem 2.5rem 0;
+      max-width: 43rem;
+
+      .title-contact {
+        font-size: 1.5rem;
       }
     }
   }
@@ -357,7 +470,166 @@
     display: none !important;
   }
 
+  .close-btn {
+    position: absolute;
+    top: 1.2rem;
+    right: 2.5rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #26282B;
+  }
+
   .hamburger {
     display: block !important;
+  }
+}
+
+// Max-width 430
+
+@media only screen and (max-width: 430px) {
+  #container {
+    max-width: 375px;
+    padding: 0 1.20rem 0 1.20rem;
+
+    .header {
+      max-width: 375px;
+    }
+
+    .main {
+      padding: 5rem 0 7.5rem 0;
+
+      .home {
+        display: flex;
+        flex-direction: column;
+        gap: 2.03rem;
+
+        .area-grid-2 {
+          .tag-ux-ui-design {
+            right: 56%;
+            top: 101%;
+          }
+
+          .tag-identidade-visual {
+            top: 114%;
+            right: 2.5%;
+          }
+
+          .tag-developer-front-end {
+            top: 131%;
+            right: 43%;
+        }
+        }
+      }
+    }
+
+    .projects {
+      .content-works {
+        padding: 1rem 0 7.75rem 0;
+
+        .work-1,
+        .work-2,
+        .work-3,
+        .work-4 {
+          max-width: 20.9375rem;
+        }
+
+        .work-image {
+          max-width: 20.9375rem;
+        }
+
+        .projects-btn {
+          margin: 0;
+        }
+
+        h5 {
+          max-width: 20.9375rem;
+        }
+      }
+    }
+
+    .about {
+      .content-about {
+        .about-grid-1 {
+          gap: 2.5rem;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+
+          .content-about-grid-1 {
+            .tag-about {
+              font-size: 1.25rem;
+            }
+
+            .nome-about {
+              max-width: 20.9375rem;
+              font-size: 1.375rem;
+            }
+
+            .desc-about {
+              max-width: 20.9375rem;
+            }
+          }
+        }
+
+        .about-grid-2 {
+          .content-about-grid-2 {
+            gap: 2.5rem;
+            display: flex;
+            flex-direction: column-reverse;
+          }
+        }
+      }
+    }
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 1.1rem;
+    right: 1.5rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #26282B;
+  }
+
+  .mobile-menu-list {
+    list-style: none;
+    padding-top: 4.94rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact {
+    max-height: 36.9375rem;
+
+    .content-contact {
+      max-width: 36.9375rem;
+      padding: 5.06rem 1.25rem;
+
+      .social-contact {
+        padding-top: 3.5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .contact-btns {
+        padding-top: 3.5rem;
+        gap: 1rem;
+
+        .contact-cv-btn {
+          max-width: 10rem;
+          padding: 1rem 2.81rem;
+        }
+
+        .contact-portfolio-btn {
+          max-width: 10rem;
+          padding: 1rem 1.81rem;
+        }
+      }
+
+      .copyright {
+        padding-top: 3.5rem;
+      }
+    }
   }
 }
