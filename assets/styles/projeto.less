@@ -1,0 +1,100 @@
+// Imports
+
+@import url(/assets/styles/root.less);
+
+// Header
+
+.projeto-header {
+  padding-bottom: 7.5rem;
+
+  .header-esquerdo {
+    max-width: 30.5rem;
+    padding-top: 6rem;
+    position: relative;
+    z-index: 900;
+
+    .back-projeto {
+      a {
+        display: flex;
+        gap: 1rem;
+        color: @neutralcolors-50;
+        font-family: @fluent-bold;
+        font-size: 1rem;
+        font-size: normal;
+        font-weight: 700;
+        line-height: 120%;
+      }
+    }
+
+    .titulo-do-projeto {
+      padding: 2.5rem 0 2.5rem 0;
+      color: @neutralcolors-50;
+      font-family: @fluent-regular;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+      max-width: 30.5rem;
+    }
+
+    .descricao-do-projeto {
+      color: @neutralcolors-40;
+      font-family: @font-inter;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+    }
+  }
+
+  .header-direito {
+    max-width: 62.25rem;
+    position: relative;
+    margin-top: -41%;
+    margin-left: 24%;
+  }
+
+  .header-inferior {
+    .tags-projeto {
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+    }
+
+    .tag-cliente,
+    .tag-servico,
+    .tag-segmento,
+    .tag-equipe,
+    .tag-cronograma {
+      border-radius: 0.5rem;
+      border: 1px solid @neutralcolors-30;
+      padding: 2.25rem 0 2.25rem 0;
+      width: 11rem;
+
+      .icone-tag {
+        text-align: center;
+        padding-bottom: 0.5rem;
+      }
+
+      .titulo-tag {
+        color: @neutralcolors-50;
+        text-align: center;
+        font-family: @font-inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+      }
+
+      .desc-tag {
+        color: @neutralcolors-50;
+        text-align: center;
+        font-family: @font-inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+    }
+  }
+}
