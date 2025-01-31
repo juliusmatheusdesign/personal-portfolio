@@ -19,12 +19,14 @@
   <script src="/assets/scripts/menu-fixed.js" defer></script>
   <script src="/assets/scripts/back-to-top.js" defer></script>
   <script src="/assets/scripts/menu-mobile.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" defer></script>
+  <script src="/assets/scripts/scrolltrigger.js"></script>
 
   <title>Solucionando problemas do usuários em um e-commerce B2B</title>
 </head>
 
 <body>
-
   <div id="container">
     <!--------------------- HEADER ------------------------>
     <header class="header">
@@ -132,6 +134,191 @@
             <p class="desc-tag">5 meses</p>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="projeto-about">
+      <div class="about-esquerda">
+        <h1 class="about-title">Contexto do projeto e seus desafios</h1>
+      </div>
+      <div class="about-direita">
+        <p class="about-desc">O Fujioka Distribuidor buscava redesenhar o site de seu e-commerce com o objetivo de
+          aprimorar a usabilidade e proporcionar uma experiência de compra mais eficiente para seus clientes. Além de
+          melhorar a navegação, o redesign foi planejado para aumentar as vendas e fortalecer a percepção positiva da
+          marca junto ao público. A iniciativa também visava reduzir queixas relacionadas a problemas no processo de
+          compra e na usabilidade do site, consolidando a empresa, que é uma das maiores referências no mercado B2B
+          (Business to Business) no estado de Goiás.</p>
+        <h3 class="about-list-title">Desafios iniciais</h3>
+        <div class="about-list-esquerda">
+          <p class="about-item-list">- A marca não possui manual para seu uso digital</p>
+          <p class="about-item-list">- Integração com sistemas de gestão existentes</p>
+          <p class="about-item-list">- Documentação inexistente</p>
+          <p class="about-item-list">- Dois perfis de compra (revenda e consumo)</p>
+        </div>
+        <div class="about-list-direita">
+          <p class="about-item-list">- Problemas de acessibilidade identificados</p>
+          <p class="about-item-list">- Responsividade do site</p>
+        </div>
+      </div>
+    </div>
+    <div class="projeto-metas">
+      <div class="metas-esquerda">
+        <h1 class="metas-title">Metas de alto nível</h1>
+      </div>
+      <div class="metas-direita">
+        <p class="metas-list">Projetar um sistema de design para ser usado no meio digital da marca</p>
+        <p class="metas-list">Desenvolver uma documentação para futuros funcionários da marca</p>
+        <p class="metas-list">Diferenças visuais para conseguir distinguir o perfil de compra.</p>
+        <p class="metas-list">Responsividade para o cliente conseguir acessar e comprar de qualquer dispositivo</p>
+      </div>
+    </div>
+  </div>
+  <div class="projeto-etapas-do-design">
+    <div class="etapas-content">
+      <div class="etapas-esquerda">
+        <h1 class="etapas-title">Etapas do redesign</h1>
+      </div>
+      <div class="etapas-direita">
+        <h3 class="etapas-problem">Como o redesign pode transformar vendas e experiência do cliente?</h3>
+        <img src="/assets/images/double-diamond.svg" alt="Double Diamond">
+      </div>
+    </div>
+  </div>
+  <div id="container-2">
+    <div class="projeto-pesquisas">
+      <div class="pesquisas-esquerda">
+        <h1 class="pesquisas-title">Imersão em pesquisas</h1>
+      </div>
+      <div class="pesquisas-direita">
+        <p class="pesquisas-desc">
+          Para iniciar o projeto, realizei um workshop de imersão para entender os planos estratégicos já definidos pela
+          marca, identificar as principais necessidades do negócio que o novo e-commerce deveria atender e mapear as
+          dificuldades dos usuários, previamente apontadas pela equipe de atendimento em relação à marca e à plataforma
+          atual.
+        </p>
+        <div class="pesquisas-quote">
+          <p class="text-quote">Nessa fase, considerei essencial analisar o projeto de forma estratégica, levando em
+            conta a <span>visão do marketing</span>, a <span>experiência do usuário</span> e os <span>desafios
+              técnicos</span>, garantindo uma abordagem mais
+            completa e assertiva.</p>
+        </div>
+        <p class="pesquisas-text">
+          Utilizando a matriz CSD como principal ferramenta, consegui me aprofundar no negócio,
+          levantar insights valiosos e estruturar uma base sólida para as próximas etapas do projeto.
+        </p>
+        <img src="/assets/images/matriz-csd.png"
+          alt="Painel de organização pessoal da Matriz CSD, estruturado para otimizar a organização e servir como base para futuras pesquisas com usuários."
+          class="matriz-csd">
+        <p class="desc-imagem">
+          Painel de organização pessoal da Matriz CSD, estruturado para otimizar a organização e servir como base para
+          futuras pesquisas com usuários. Desenvolvido no FigJam em 2025.
+        </p>
+        <div class="lists-matriz">
+          <!-- Certezas -->
+          <h3 class="matriz-csd-list-title">
+            Certezas
+          </h3>
+          <div class="lists-direita-e-esquerda">
+            <div class="matriz-csd-list-esquerda">
+              <p class="matriz-csd-item-list">
+                - A marca não possui um manual para uso digital.
+              </p>
+              <p class="matriz-csd-item-list">
+                - Não há documentação disponível
+              </p>
+              <p class="matriz-csd-item-list">
+                - Existem dois perfis de compra: revenda e consumo
+              </p>
+              <p class="matriz-csd-item-list">
+                - O site apresenta problema de acessibilidade
+              </p>
+            </div>
+            <div class="matriz-csd-list-direita">
+              <p class="matriz-csd-item-list">
+                - Há falhas na responsividade da plataforma.
+              </p>
+              <p class="matriz-csd-item-list">
+                - A comunicação sobre a entrega dos produtos é ineficaz.
+              </p>
+              <p class="matriz-csd-item-list">
+                - Produtos chegam com defeito, gerando alta demanda no atendimento.
+              </p>
+            </div>
+          </div>
+          <!-- Suposições -->
+          <h3 class="matriz-csd-list-title" style="padding-top: 2.5rem;">
+            Suposições
+          </h3>
+          <div class="lists-direita-e-esquerda">
+            <div class="matriz-csd-list-esquerda">
+              <p class="matriz-csd-item-list">
+                - A marca precisa de um design system
+              </p>
+              <p class="matriz-csd-item-list">
+                - Clientes enfrentam dificuldades para concluir compras pelo celular
+              </p>
+              <p class="matriz-csd-item-list">
+                - O excesso de informações iniciais carece de um direcionamento claro
+              </p>
+              <p class="matriz-csd-item-list">
+                - O fluxo de navegação do usuário é confuso
+              </p>
+            </div>
+            <div class="matriz-csd-list-direita">
+              <p class="matriz-csd-item-list">
+                - Clientes não conseguem acompanhar o status de suas entregas
+              </p>
+              <p class="matriz-csd-item-list">
+                - A alta demanda no atendimento pode estar relacionada a problemas de usabilidade no site
+              </p>
+            </div>
+          </div>
+          <!-- Dúvidas -->
+          <h3 class="matriz-csd-list-title" style="padding-top: 2.5rem;">
+            Dúvidas
+          </h3>
+          <div class="lists-direita-e-esquerda">
+            <div class="matriz-csd-list-esquerda">
+              <p class="matriz-csd-item-list">
+                - Qual é a maior dificuldade do cliente?
+              </p>
+              <p class="matriz-csd-item-list">
+                - O que mais motiva o cliente a finalizar uma compra?
+              </p>
+              <p class="matriz-csd-item-list">
+                - Um aplicativo poderia aumentar as compras via celular?
+              </p>
+              <p class="matriz-csd-item-list">
+                - É possível otimizar o fluxo de navegação no site?
+              </p>
+              <p class="matriz-csd-item-list">
+                - Como funciona o processo de inscrição no site e quais são as principais dificuldades?
+              </p>
+            </div>
+            <div class="matriz-csd-list-direita">
+              <p class="matriz-csd-item-list">
+                - De que forma os clientes recebem informações sobre a entrega de seus produtos? E-mail, perfil no site,
+                notificações?
+              </p>
+              <p class="matriz-csd-item-list">
+                - Os usuários têm dúvidas sobre a restrição de vendas apenas para CNPJ e não para CPF?
+              </p>
+              <p class="matriz-csd-item-list">
+                - Quem são os principais concorrentes?
+              </p>
+              <p class="matriz-csd-item-list">
+                - O cliente consegue esclarecer dúvidas antes de recorrer ao atendimento direto?
+              </p>
+              <p class="matriz-csd-item-list">
+                - O site conta com alertas de suporte para erros e problemas encontrados pelos usuários?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projeto-dados">
+      <div class="dados-title">
+        O que os dados nos dizem
       </div>
     </div>
   </div>
