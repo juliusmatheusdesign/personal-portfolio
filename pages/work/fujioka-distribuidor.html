@@ -27,10 +27,10 @@
 </head>
 
 <body>
-  <div id="container">
-    <!--------------------- HEADER ------------------------>
-    <header class="header">
-      <div class="bg-menu" id="navbar">
+  <!--------------------- HEADER ------------------------>
+  <header class="header">
+    <div class="bg-menu" id="navbar">
+      <div class="menu">
         <div class="brand-menu-container">
           <a href="#home" class="logo-menu">JULIUS MATHEUS</a>
         </div>
@@ -46,17 +46,19 @@
           ☰
         </div>
       </div>
+    </div>
 
-      <div class="mobile-menu" id="mobileMenu">
-        <div class="close-btn" id="closeBtn">✖</div>
-        <ul class="mobile-menu-list">
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#about">Sobre mim</a></li>
-          <li><a href="#contact">Contato</a></li>
-          <li><a href="./assets/pdf/cv-julius-matheus.pdf" target="_blank">Currículo</a></li>
-        </ul>
-      </div>
-    </header>
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-btn" id="closeBtn">✖</div>
+      <ul class="mobile-menu-list">
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="./assets/pdf/cv-julius-matheus.pdf" target="_blank">Currículo</a></li>
+      </ul>
+    </div>
+  </header>
+  <section id="container-top">
     <!--------------------- PROJETO ------------------------>
     <div class="projeto-header">
       <div class="header-esquerdo">
@@ -171,157 +173,653 @@
         <p class="metas-list">Responsividade para o cliente conseguir acessar e comprar de qualquer dispositivo</p>
       </div>
     </div>
-  </div>
-  <div class="projeto-etapas-do-design">
-    <div class="etapas-content">
-      <div class="etapas-esquerda">
-        <h1 class="etapas-title">Etapas do redesign</h1>
-      </div>
-      <div class="etapas-direita">
-        <h3 class="etapas-problem">Como o redesign pode transformar vendas e experiência do cliente?</h3>
-        <img src="/assets/images/double-diamond.svg" alt="Double Diamond">
-      </div>
-    </div>
-  </div>
-  <div id="container-2">
-    <div class="projeto-pesquisas">
-      <div class="pesquisas-esquerda">
-        <h1 class="pesquisas-title">Imersão em pesquisas</h1>
-      </div>
-      <div class="pesquisas-direita">
-        <p class="pesquisas-desc">
-          Para iniciar o projeto, realizei um workshop de imersão para entender os planos estratégicos já definidos pela
-          marca, identificar as principais necessidades do negócio que o novo e-commerce deveria atender e mapear as
-          dificuldades dos usuários, previamente apontadas pela equipe de atendimento em relação à marca e à plataforma
-          atual.
-        </p>
-        <div class="pesquisas-quote">
-          <p class="text-quote">Nessa fase, considerei essencial analisar o projeto de forma estratégica, levando em
-            conta a <span>visão do marketing</span>, a <span>experiência do usuário</span> e os <span>desafios
-              técnicos</span>, garantindo uma abordagem mais
-            completa e assertiva.</p>
-        </div>
-        <p class="pesquisas-text">
-          Utilizando a matriz CSD como principal ferramenta, consegui me aprofundar no negócio,
-          levantar insights valiosos e estruturar uma base sólida para as próximas etapas do projeto.
-        </p>
-        <img src="/assets/images/matriz-csd.png"
-          alt="Painel de organização pessoal da Matriz CSD, estruturado para otimizar a organização e servir como base para futuras pesquisas com usuários."
-          class="matriz-csd">
-        <p class="desc-imagem">
-          Painel de organização pessoal da Matriz CSD, estruturado para otimizar a organização e servir como base para
-          futuras pesquisas com usuários. Desenvolvido no FigJam em 2025.
-        </p>
-        <div class="lists-matriz">
-          <!-- Certezas -->
-          <h3 class="matriz-csd-list-title">
-            Certezas
-          </h3>
-          <div class="lists-direita-e-esquerda">
-            <div class="matriz-csd-list-esquerda">
-              <p class="matriz-csd-item-list">
-                - A marca não possui um manual para uso digital.
-              </p>
-              <p class="matriz-csd-item-list">
-                - Não há documentação disponível
-              </p>
-              <p class="matriz-csd-item-list">
-                - Existem dois perfis de compra: revenda e consumo
-              </p>
-              <p class="matriz-csd-item-list">
-                - O site apresenta problema de acessibilidade
-              </p>
-            </div>
-            <div class="matriz-csd-list-direita">
-              <p class="matriz-csd-item-list">
-                - Há falhas na responsividade da plataforma.
-              </p>
-              <p class="matriz-csd-item-list">
-                - A comunicação sobre a entrega dos produtos é ineficaz.
-              </p>
-              <p class="matriz-csd-item-list">
-                - Produtos chegam com defeito, gerando alta demanda no atendimento.
-              </p>
-            </div>
+  </section>
+  <div class="bg-black">
+    <section id="container">
+      <div class="projeto-etapas-do-design">
+        <div class="etapas-content">
+          <div class="etapas-esquerda">
+            <h1 class="etapas-title">Etapas do redesign</h1>
           </div>
-          <!-- Suposições -->
-          <h3 class="matriz-csd-list-title" style="padding-top: 2.5rem;">
-            Suposições
-          </h3>
-          <div class="lists-direita-e-esquerda">
-            <div class="matriz-csd-list-esquerda">
-              <p class="matriz-csd-item-list">
-                - A marca precisa de um design system
-              </p>
-              <p class="matriz-csd-item-list">
-                - Clientes enfrentam dificuldades para concluir compras pelo celular
-              </p>
-              <p class="matriz-csd-item-list">
-                - O excesso de informações iniciais carece de um direcionamento claro
-              </p>
-              <p class="matriz-csd-item-list">
-                - O fluxo de navegação do usuário é confuso
-              </p>
-            </div>
-            <div class="matriz-csd-list-direita">
-              <p class="matriz-csd-item-list">
-                - Clientes não conseguem acompanhar o status de suas entregas
-              </p>
-              <p class="matriz-csd-item-list">
-                - A alta demanda no atendimento pode estar relacionada a problemas de usabilidade no site
-              </p>
-            </div>
-          </div>
-          <!-- Dúvidas -->
-          <h3 class="matriz-csd-list-title" style="padding-top: 2.5rem;">
-            Dúvidas
-          </h3>
-          <div class="lists-direita-e-esquerda">
-            <div class="matriz-csd-list-esquerda">
-              <p class="matriz-csd-item-list">
-                - Qual é a maior dificuldade do cliente?
-              </p>
-              <p class="matriz-csd-item-list">
-                - O que mais motiva o cliente a finalizar uma compra?
-              </p>
-              <p class="matriz-csd-item-list">
-                - Um aplicativo poderia aumentar as compras via celular?
-              </p>
-              <p class="matriz-csd-item-list">
-                - É possível otimizar o fluxo de navegação no site?
-              </p>
-              <p class="matriz-csd-item-list">
-                - Como funciona o processo de inscrição no site e quais são as principais dificuldades?
-              </p>
-            </div>
-            <div class="matriz-csd-list-direita">
-              <p class="matriz-csd-item-list">
-                - De que forma os clientes recebem informações sobre a entrega de seus produtos? E-mail, perfil no site,
-                notificações?
-              </p>
-              <p class="matriz-csd-item-list">
-                - Os usuários têm dúvidas sobre a restrição de vendas apenas para CNPJ e não para CPF?
-              </p>
-              <p class="matriz-csd-item-list">
-                - Quem são os principais concorrentes?
-              </p>
-              <p class="matriz-csd-item-list">
-                - O cliente consegue esclarecer dúvidas antes de recorrer ao atendimento direto?
-              </p>
-              <p class="matriz-csd-item-list">
-                - O site conta com alertas de suporte para erros e problemas encontrados pelos usuários?
-              </p>
-            </div>
+          <div class="etapas-direita">
+            <h3 class="etapas-problem">Como o redesign pode transformar vendas e experiência do cliente?</h3>
+            <img src="/assets/images/double-diamond.svg" alt="Double Diamond">
           </div>
         </div>
       </div>
-    </div>
-    <div class="projeto-dados">
-      <div class="dados-title">
-        O que os dados nos dizem
+    </section>
+  </div>
+  <section id="container">
+      <div class="projeto-pesquisas">
+        <div class="pesquisas-esquerda">
+          <h1 class="pesquisas-title">Imersão em pesquisas</h1>
+        </div>
+        <div class="pesquisas-direita">
+          <p class="pesquisas-desc">
+            Para iniciar o projeto, realizei um workshop de imersão para entender os planos estratégicos já definidos
+            pela
+            marca, identificar as principais necessidades do negócio que o novo e-commerce deveria atender e mapear as
+            dificuldades dos usuários, previamente apontadas pela equipe de atendimento em relação à marca e à
+            plataforma
+            atual.
+          </p>
+          <div class="pesquisas-quote">
+            <p class="text-quote">Nessa fase, considerei essencial analisar o projeto de forma estratégica, levando em
+              conta a <span>visão do marketing</span>, a <span>experiência do usuário</span> e os <span>desafios
+                técnicos</span>, garantindo uma abordagem mais
+              completa e assertiva.</p>
+          </div>
+          <p class="pesquisas-text">
+            Utilizando a matriz CSD como principal ferramenta, consegui me aprofundar no negócio,
+            levantar insights valiosos e estruturar uma base sólida para as próximas etapas do projeto.
+          </p>
+          <img src="/assets/images/matriz-csd.png"
+            alt="Painel de organização pessoal da Matriz CSD, estruturado para otimizar a organização e servir como base para futuras pesquisas com usuários."
+            class="matriz-csd">
+          <p class="desc-imagem">
+            Painel de organização pessoal da Matriz CSD, estruturado para otimizar a organização e servir como base para
+            futuras pesquisas com usuários. Desenvolvido no FigJam em 2025.
+          </p>
+          <div class="lists-matriz">
+            <!-- Certezas -->
+            <h3 class="matriz-csd-list-title">
+              Certezas
+            </h3>
+            <div class="lists-direita-e-esquerda">
+              <div class="matriz-csd-list-esquerda">
+                <p class="matriz-csd-item-list">
+                  - A marca não possui um manual para uso digital.
+                </p>
+                <p class="matriz-csd-item-list">
+                  - Não há documentação disponível
+                </p>
+                <p class="matriz-csd-item-list">
+                  - Existem dois perfis de compra: revenda e consumo
+                </p>
+                <p class="matriz-csd-item-list">
+                  - O site apresenta problema de acessibilidade
+                </p>
+              </div>
+              <div class="matriz-csd-list-direita">
+                <p class="matriz-csd-item-list">
+                  - Há falhas na responsividade da plataforma.
+                </p>
+                <p class="matriz-csd-item-list">
+                  - A comunicação sobre a entrega dos produtos é ineficaz.
+                </p>
+                <p class="matriz-csd-item-list">
+                  - Produtos chegam com defeito, gerando alta demanda no atendimento.
+                </p>
+              </div>
+            </div>
+            <!-- Suposições -->
+            <h3 class="matriz-csd-list-title" style="padding-top: 2.5rem;">
+              Suposições
+            </h3>
+            <div class="lists-direita-e-esquerda">
+              <div class="matriz-csd-list-esquerda">
+                <p class="matriz-csd-item-list">
+                  - A marca precisa de um design system
+                </p>
+                <p class="matriz-csd-item-list">
+                  - Clientes enfrentam dificuldades para concluir compras pelo celular
+                </p>
+                <p class="matriz-csd-item-list">
+                  - O excesso de informações iniciais carece de um direcionamento claro
+                </p>
+                <p class="matriz-csd-item-list">
+                  - O fluxo de navegação do usuário é confuso
+                </p>
+              </div>
+              <div class="matriz-csd-list-direita">
+                <p class="matriz-csd-item-list">
+                  - Clientes não conseguem acompanhar o status de suas entregas
+                </p>
+                <p class="matriz-csd-item-list">
+                  - A alta demanda no atendimento pode estar relacionada a problemas de usabilidade no site
+                </p>
+              </div>
+            </div>
+            <!-- Dúvidas -->
+            <h3 class="matriz-csd-list-title" style="padding-top: 2.5rem;">
+              Dúvidas
+            </h3>
+            <div class="lists-direita-e-esquerda">
+              <div class="matriz-csd-list-esquerda">
+                <p class="matriz-csd-item-list">
+                  - Qual é a maior dificuldade do cliente?
+                </p>
+                <p class="matriz-csd-item-list">
+                  - O que mais motiva o cliente a finalizar uma compra?
+                </p>
+                <p class="matriz-csd-item-list">
+                  - Um aplicativo poderia aumentar as compras via celular?
+                </p>
+                <p class="matriz-csd-item-list">
+                  - É possível otimizar o fluxo de navegação no site?
+                </p>
+                <p class="matriz-csd-item-list">
+                  - Como funciona o processo de inscrição no site e quais são as principais dificuldades?
+                </p>
+              </div>
+              <div class="matriz-csd-list-direita">
+                <p class="matriz-csd-item-list">
+                  - De que forma os clientes recebem informações sobre a entrega de seus produtos? E-mail, perfil no
+                  site,
+                  notificações?
+                </p>
+                <p class="matriz-csd-item-list">
+                  - Os usuários têm dúvidas sobre a restrição de vendas apenas para CNPJ e não para CPF?
+                </p>
+                <p class="matriz-csd-item-list">
+                  - Quem são os principais concorrentes?
+                </p>
+                <p class="matriz-csd-item-list">
+                  - O cliente consegue esclarecer dúvidas antes de recorrer ao atendimento direto?
+                </p>
+                <p class="matriz-csd-item-list">
+                  - O site conta com alertas de suporte para erros e problemas encontrados pelos usuários?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projeto-dados">
+        <div class="dados-esquerda">
+          <h1 class="dados-title">
+            O que os dados nos dizem
+          </h1>
+        </div>
+        <div class="dados-direita">
+          <p class="desc-dados">
+            Utilizei ferramentas e métodos de pesquisa para segmentar os dados do cliente do Fujioka
+            Distribuidor. A Matriz CSD foi essencial para definir um direcionamento estratégico, facilitando a
+            identificação de desafios e a tomada de decisões. Além disso, a pesquisa de mercado aprofundou a compreensão
+            do setor, revelando percepções, expectativas e problemas não identificados inicialmente.
+          </p>
+          <h2 class="sub-title-dados">
+            Google Analytics
+          </h2>
+          <p class="desc-dados">
+            O Google Analytics revelou o comportamento dos usuários, seus interesses e padrões de navegação. O mapa de
+            calor destacou áreas de maior interação e pontos de dificuldade. Também foi possível identificar etapas com
+            abandono e confirmar que a maioria dos acessos vem de dispositivos móveis.
+          </p>
+          <div class="dados-graphic">
+            <div class="graphic-users">
+              <h3 class="graphic-title">
+                Usuários recorrentes
+              </h3>
+              <p class="sub-title-graphic">
+                por plataforma
+              </p>
+              <div class="graphic">
+                <svg xmlns="http://www.w3.org/2000/svg" width="249" height="249" viewBox="0 0 249 249" fill="none">
+                  <path
+                    d="M219.106 146.573C215.914 160.14 209.861 172.866 201.353 183.894C192.845 194.923 182.079 204 169.778 210.515C157.477 217.03 143.926 220.832 130.036 221.666C116.146 222.5 102.239 220.347 89.248 215.351C76.2571 210.355 64.4839 202.632 54.7192 192.7C44.9546 182.769 37.4248 170.859 32.6356 157.772C27.8464 144.684 25.9088 130.722 26.953 116.823C27.9972 102.923 31.9991 89.4092 38.6896 77.1881L68.6152 93.6289C64.2664 101.573 61.6652 110.357 60.9865 119.391C60.3078 128.426 61.5672 137.501 64.6802 146.008C67.7931 154.515 72.6875 162.256 79.0345 168.712C85.3815 175.167 93.0342 180.187 101.478 183.435C109.922 186.682 118.962 188.082 127.991 187.54C137.019 186.997 145.827 184.526 153.823 180.291C161.818 176.057 168.816 170.157 174.346 162.988C179.877 155.819 183.811 147.548 185.886 138.729L219.106 146.573Z"
+                    fill="#DB2739" />
+                  <path
+                    d="M38.6987 77.1714C49.9174 56.6886 68.0942 40.9129 89.9315 32.7064C111.769 24.4999 135.82 24.4061 157.722 32.4421C179.624 40.4781 197.926 56.1115 209.307 76.5062C220.689 96.9008 224.396 120.706 219.756 143.602L186.308 136.798C189.324 121.915 186.915 106.442 179.517 93.1857C172.119 79.9291 160.223 69.7674 145.986 64.544C131.75 59.3206 116.117 59.3816 101.922 64.7158C87.7282 70.0501 75.9133 80.3042 68.6212 93.6181L38.6987 77.1714Z"
+                    fill="#F4857B" />
+                  <path
+                    d="M219.985 143.019C219.759 144.224 219.51 145.425 219.239 146.621L185.966 139.033C186.143 138.256 186.304 137.475 186.452 136.692L219.985 143.019Z"
+                    fill="#FDDED3" />
+                </svg>
+                <div class="info-graphic">
+                  <div class="info-graphic-1">
+                    <p class="title-info-graphic">
+                      MOBILE
+                    </p>
+                    <p class="dado-info-graphic">
+                      54,3%
+                    </p>
+                  </div>
+                  <div class="info-graphic-2">
+                    <p class="title-info-graphic">
+                      DESKTOP
+                    </p>
+                    <p class="dado-info-graphic">
+                      45,1%
+                    </p>
+                  </div>
+                  <div class="info-graphic-3">
+                    <p class="title-info-graphic">
+                      TABLET
+                    </p>
+                    <p class="dado-info-graphic">
+                      0,6%
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="graphic-demographic">
+              <h3 class="graphic-title">
+                Detalhes demográficos
+              </h3>
+              <p class="sub-title-graphic">
+                por cidade
+              </p>
+              <div class="graphic">
+                <svg xmlns="http://www.w3.org/2000/svg" width="249" height="249" viewBox="0 0 249 249" fill="none">
+                  <path
+                    d="M219.106 146.573C213.57 170.106 199.519 190.744 179.669 204.498C159.82 218.251 135.584 224.141 111.648 221.029C87.7124 217.916 65.7787 206.023 50.0897 187.649C34.4006 169.275 26.0712 145.726 26.7125 121.557L60.8302 122.469C60.4133 138.178 65.8274 153.485 76.0253 165.428C86.2232 177.371 100.48 185.102 116.038 187.125C131.596 189.148 147.35 185.32 160.252 176.38C173.154 167.441 182.288 154.025 185.886 138.729L219.106 146.573Z"
+                    fill="#F9A600" />
+                  <path
+                    d="M26.7114 121.601C27.1239 105.792 31.3621 90.3197 39.0618 76.5144C46.7616 62.7091 57.6927 50.9832 70.9157 42.3444C84.1387 33.7056 99.2583 28.4121 114.975 26.9189C130.692 25.4258 146.536 27.7775 161.146 33.7721L148.004 65.9181C138.59 62.0554 128.38 60.54 118.253 61.5022C108.125 62.4643 98.383 65.8752 89.8626 71.4418C81.3421 77.0083 74.2986 84.564 69.3371 93.4596C64.3757 102.355 61.6447 112.325 61.379 122.511L26.7114 121.601Z"
+                    fill="#FDD465" />
+                  <path
+                    d="M160.553 34.4289C182.078 43.1092 199.81 59.1879 210.562 79.7753C221.314 100.363 224.38 124.109 219.21 146.746L185.948 139.115C189.308 124.4 187.315 108.965 180.326 95.5835C173.338 82.2017 161.812 71.7506 147.82 66.1083L160.553 34.4289Z"
+                    fill="#FEF4CB" />
+                </svg>
+                <div class="info-graphic">
+                  <div class="info-graphic-1">
+                    <p class="title-info-graphic">
+                      SÃO PAULO
+                    </p>
+                    <p class="dado-info-graphic">
+                      45,8%
+                    </p>
+                  </div>
+                  <div class="info-graphic-2">
+                    <p class="title-info-graphic">
+                      GOIÂNIA
+                    </p>
+                    <p class="dado-info-graphic">
+                      31,6%
+                    </p>
+                  </div>
+                  <div class="info-graphic-3">
+                    <p class="title-info-graphic">
+                      BRASÍLIA
+                    </p>
+                    <p class="dado-info-graphic">
+                      22,7%
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="desc-graphic">
+            Dados obtidos pelo Google Analytics sobre as plataformas de acesso ao site do Fujioka Distribuidor e o
+            perfil
+            demográfico dos visitantes. Pesquisa realizada em janeiro de 2025.
+          </p>
+          <h2 class="sub-title-dados">
+            Pesquisa de mercado
+          </h2>
+          <p class="desc-dados">
+            Pesquisei sobre e-commerce de distribuição para revendedores com CNPJ e MEI. Identifiquei que buscam preços
+            competitivos, previsibilidade no estoque e enfrentam desafios logísticos. Valorizam navegação simples,
+            informações detalhadas e transparência nos custos, sendo a confiança na entrega e um catálogo bem organizado
+            essenciais.
+          </p>
+          <h2 class="sub-title-dados">
+            Pesquisa quantitativa e qualitativa
+          </h2>
+          <p class="desc-dados">
+            Desenvolvi questionários de satisfação enviados por e-mail logo após a compra e após a confirmação ou não do
+            recebimento do produto, com foco em questões quantitativas. Além disso, entrei em contato com alguns
+            clientes
+            para responderem um questionário mais amplo, abordando o acesso ao site, a compra e a entrega. Com perguntas
+            direcionadas, consegui obter insights sobre as motivações de compra, dificuldades no site e a percepção da
+            marca.
+          </p>
+          <h3 class="title-questions">
+            Algumas das perguntas:
+          </h3>
+          <div class="list-questions">
+            <p class="item-list-questions">
+              - Você enfrentou algum desafio ao usar o site? Se sim, quais são eles?
+            </p>
+            <p class="item-list-questions">
+              - Como você avaliaria a facilidade de uso (interface do usuário e navegação) do site?
+            </p>
+            <p class="item-list-questions">
+              - O site atende a todas as necessidades do seu negócio? Se não, o que está faltando?
+            </p>
+            <p class="item-list-questions">
+              - Como você avaliaria o suporte ao cliente e o serviço pós-venda?
+            </p>
+            <p class="item-list-questions">
+              - Você recomendaria este site para outras pessoas? Por que ou por que não?
+            </p>
+          </div>
+          <div class="dados-quote">
+            <div class="dados-quote-content">
+              <p class="text-quote">
+                Além das fontes mencionadas, analisei as <span>Redes sociais</span> e o <span>Reclame Aqui</span> da
+                empresa
+                para entender a percepção dos clientes. Cada dado coletado foi essencial para compreender os problemas e
+                encontrar as melhores soluções.
+              </p>
+            </div>
+          </div>
+          <h2 class="sub-title-dados">
+            Aprendizados
+          </h2>
+          <div class="list-aprendizados">
+            <p class="item-list-aprendizados">
+              1. Os clientes escolhem o Fujioka Distribuidor pela <span>confiança na empresa</span>, pela ampla
+              <span>variedade de produtos</span> e pelos <span>preços competitivos</span>
+            </p>
+            <p class="item-list-aprendizados">
+              2. Muitos usuários abandonaram compras devido a <span>dificuldades de navegação</span> pelo celular
+            </p>
+            <p class="item-list-aprendizados">
+              3. Diversos clientes relataram a falta de <span>informações claras</span> sobre a <span>entrega de seus
+                pedidos</span>
+            </p>
+            <p class="item-list-aprendizados">
+              4. Promoções, cupons e outras oportunidades de compra não estão <span>devidamente destacadas</span>
+            </p>
+            <p class="item-list-aprendizados">
+              5. O <span>sistema de busca</span> e os filtros de produtos apresentam <span>falhas no
+                funcionamento</span>
+            </p>
+            <p class="item-list-aprendizados">
+              6. Dificuldades de <span>usabilidade no checkout</span>, falta de informações claras sobre o pedido e
+              problemas na <span>aplicação de promoções</span>
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <div class="bg-black">
+    <section id="container">
+      <div class="projeto-fluxo-users">
+        <div class="fluxo-content">
+          <div class="fluxo-esquerda">
+            <h1 class="fluxo-title">
+              Um novo fluxo de usuário
+            </h1>
+          </div>
+          <div class="fluxo-direita">
+            <p class="desc-fluxo">
+              O Fujioka Distribuidor não possuía um fluxo de usuário definido, então desenvolvi um do zero para mapear a
+              navegação do site, compreender seu funcionamento e validar os problemas relatados nas pesquisas
+              anteriores.
+              Esse fluxo servirá como um guia para identificar pontos de melhoria, destacando as principais dificuldades
+              de
+              usabilidade e os obstáculos no processo de finalização da compra.
+            </p>
+            <img src="/assets/images/fluxo-example.png" alt="Mapa de fluxo de usuários" class="fluxo-example">
+            <p class="desc-image-fluxo">
+              Prévia do Mapa do fluxo de usuário, abrangendo todas as páginas e caminhos disponíveis no site.
+              Criado no FigJam em 2025.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section id="container">
+    <div class="projeto-solution">
+      <div class="solution-esquerda">
+        <h1 class="solution-title">
+          Projetando a solução
+        </h1>
+      </div>
+      <div class="solution-direita">
+        <h2 class="sub-title-solution">
+          Design System
+        </h2>
+        <p class="desc-solution">
+          Com todos os problemas identificados, pesquisas e dados coletados e o fluxo do usuário definido, é hora de
+          projetar uma solução. A marca já possui um manual com paleta de cores e tipografia estabelecidas, cuja
+          aplicação foi definida. Com isso, iniciei a criação do design system para garantir um padrão consistente no
+          futuro. Segundo a empresa, é comum a necessidade de adicionar novas páginas ao site ao longo do tempo, e ter
+          um sistema padronizado facilitará o trabalho dos funcionários responsáveis.
+        </p>
+        <div class="design-system-solution">
+          <h3 class="sub-title-design-system">
+            Cores da marca
+          </h3>
+          <div class="cores-system">
+            <div class="cores-line-1">
+              <div class="primary-cor-1">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Black
+                  </p>
+                  <p class="hex-cor">
+                    # 000000
+                  </p>
+                </div>
+              </div>
+              <div class="primary-cor-2">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    White
+                  </p>
+                  <p class="hex-cor">
+                    # FFFFFF
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="sub-title-design-system">
+            Escala de cinza
+          </h3>
+          <div class="cores-system">
+            <div class="cores-line-1">
+              <div class="neutral-cor-1">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Light
+                  </p>
+                  <p class="hex-cor">
+                    # F4F4F4
+                  </p>
+                </div>
+              </div>
+              <div class="neutral-cor-2">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Light medium
+                  </p>
+                  <p class="hex-cor">
+                    # EAEAEA
+                  </p>
+                </div>
+              </div>
+              <div class="neutral-cor-3">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Medium
+                  </p>
+                  <p class="hex-cor">
+                    # C1C1C1
+                  </p>
+                </div>
+              </div>
+              <div class="neutral-cor-4">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Medium dark
+                  </p>
+                  <p class="hex-cor">
+                    # 848484
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cores-line-2">
+              <div class="neutral-cor-5">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Dark
+                  </p>
+                  <p class="hex-cor">
+                    # 323232
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="sub-title-design-system">
+            Cores semântica
+          </h3>
+          <div class="cores-system">
+            <div class="cores-line-1">
+              <div class="semantic-cor-1">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Warn
+                  </p>
+                  <p class="hex-cor">
+                    # FF8B00
+                  </p>
+                </div>
+              </div>
+              <div class="semantic-cor-2">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Alert
+                  </p>
+                  <p class="hex-cor">
+                    # E33E38
+                  </p>
+                </div>
+              </div>
+              <div class="semantic-cor-3">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Sucess
+                  </p>
+                  <p class="hex-cor">
+                    # 41D33E
+                  </p>
+                </div>
+              </div>
+              <div class="semantic-cor-4">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Info
+                  </p>
+                  <p class="hex-cor">
+                    # 1BA2E8
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="cores-line-2">
+              <div class="semantic-cor-5">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Warn Hover
+                  </p>
+                  <p class="hex-cor">
+                    # D77500
+                  </p>
+                </div>
+              </div>
+              <div class="semantic-cor-6">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Alert Hover
+                  </p>
+                  <p class="hex-cor">
+                    # C3322D
+                  </p>
+                </div>
+              </div>
+              <div class="semantic-cor-7">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Sucess Hover
+                  </p>
+                  <p class="hex-cor">
+                    # 38B836
+                  </p>
+                </div>
+              </div>
+              <div class="semantic-cor-8">
+                <div class="content-cor">
+                  <div class="cor"></div>
+                  <p class="nome-cor">
+                    Info Hover
+                  </p>
+                  <p class="hex-cor">
+                    # 158BC8
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="sub-title-design-system">
+            Tipografia
+          </h3>
+          <div class="tipografia-system">
+            <div class="style-bold">
+              <p class="name">
+                Aeonik
+              </p>
+              <p class="alfabeto">
+                ABCDEFGHIJKLMNOPQRSTUVWXYZ
+              </p>
+              <p class="alfabeto-2">
+                abcdefghijklmnopqrstuvwxyz
+              </p>
+              <p class="numbers">
+                0123456789
+              </p>
+              <p class="caracters">
+                !@#$%^&*()
+              </p>
+            </div>
+            <div class="style-regular">
+              <p class="name">
+                Aeonik
+              </p>
+              <p class="alfabeto">
+                ABCDEFGHIJKLMNOPQRSTUVWXYZ
+              </p>
+              <p class="alfabeto-2">
+                abcdefghijklmnopqrstuvwxyz
+              </p>
+              <p class="numbers">
+                0123456789
+              </p>
+              <p class="caracters">
+                !@#$%^&*()
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="sub-title-solution">
+          Wireframes
+        </h3>
+        <p class="desc-solution">
+          Para garantir um processo de design estruturado e eficiente, iniciei o desenvolvimento do e-commerce com
+          wireframes de média fidelidade (mid-fidelity), permitindo testar a usabilidade, organizar a hierarquia das
+          informações e validar o fluxo do usuário antes de investir tempo em detalhes visuais. Após os ajustes
+          necessários, avancei para os wireframes de alta fidelidade (high-fidelity), incorporando a identidade visual
+          da marca e refinando a interface para uma experiência mais próxima do produto final. Esse processo otimiza a
+          tomada de decisões e reduz retrabalho, garantindo um design mais assertivo e alinhado às necessidades do
+          projeto.
+        </p>
       </div>
     </div>
-  </div>
+  </section>
+
 </body>
 
 </html>

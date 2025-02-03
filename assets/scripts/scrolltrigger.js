@@ -27,4 +27,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
   });
 
+  gsap.to(".dados-title", {
+    y: 2200,
+    duration: 3,
+    ease: "linear",
+    scrollTrigger: {
+      trigger: '.dados-title',
+      start: 'bottom 40%',
+      end: 'bottom -180%',
+      scrub: 2,
+      //markers: true,
+    }
+  });
+
 });

@@ -24,37 +24,39 @@
 
 <body>
   <!--------------------- HEADER ------------------------>
-  <div id="container">
-    <header class="header">
-      <div class="bg-menu" id="navbar">
+  <header class="header">
+    <div class="bg-menu" id="navbar">
+      <div class="menu">
         <div class="brand-menu-container">
           <a href="#home" class="logo-menu">JULIUS MATHEUS</a>
         </div>
         <nav>
           <ul class="menu">
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#about">Sobre mim</a></li>
-            <li><a href="#contact">Contato</a></li>
-            <li><a href="./assets/pdf/cv-julius-matheus.pdf" target="_blank">Currículo</a></li>
+            <li><a href="https://juliusmatheusdesign.vercel.app/#projects">Projetos</a></li>
+            <li><a href="https://juliusmatheusdesign.vercel.app/#about">Sobre mim</a></li>
+            <li><a href="https://juliusmatheusdesign.vercel.app/#contact">Contato</a></li>
+            <li><a href="/assets/pdf/cv-julius-matheus.pdf" target="_blank">Currículo</a></li>
           </ul>
         </nav>
         <div class="hamburger" id="hamburger">
           ☰
         </div>
       </div>
+    </div>
 
-      <div class="mobile-menu" id="mobileMenu">
-        <div class="close-btn" id="closeBtn">✖</div>
-        <ul class="mobile-menu-list">
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#about">Sobre mim</a></li>
-          <li><a href="#contact">Contato</a></li>
-          <li><a href="./assets/pdf/cv-julius-matheus.pdf" target="_blank">Currículo</a></li>
-        </ul>
-      </div>
-    </header>
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-btn" id="closeBtn">✖</div>
+      <ul class="mobile-menu-list">
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="./assets/pdf/cv-julius-matheus.pdf" target="_blank">Currículo</a></li>
+      </ul>
+    </div>
+  </header>
+  <section id="container">
     <main class="main">
-      <section class="home" id="home">
+      <div class="home" id="home">
         <div class="area-grid-1">
           <div class="content-home">
             <h3 class="tag-home">Olá,</h3>
@@ -84,10 +86,10 @@
           <div class="tag-identidade-visual">Identidade Visual</div>
           <div class="tag-developer-front-end">Developer front-end</div>
         </div>
-      </section>
+      </div>
     </main>
     <!--------------------- PROJECTS ------------------------>
-    <section id="projects" class="projects">
+    <div id="projects" class="projects">
       <div class="content-works">
         <div class="work-1">
           <div class="work-image">
@@ -129,9 +131,9 @@
         </div>
         <a href="http://" class="projects-btn">Confira outros projetos</a>
       </div>
-    </section>
+    </div>
     <!--------------------- ABOUT ------------------------>
-    <section id="about" class="about">
+    <div id="about" class="about">
       <div class="content-about">
         <div class="about-grid-1">
           <img src="./assets/images/foto-de-perfil-about.png" alt="Foto de Julius Matheus" class="about-photo">
@@ -195,9 +197,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-  </div>
+  </section>
   <!--------------------- FOOTER ------------------------>
   <footer id="contact" class="contact">
     <div class="content-contact">
