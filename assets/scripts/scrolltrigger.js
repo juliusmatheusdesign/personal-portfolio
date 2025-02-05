@@ -40,4 +40,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
   });
 
+  gsap.to(".solution-title", {
+    y: 5000,
+    duration: 3,
+    ease: "none",
+    scrollTrigger: {
+      trigger: '.solution-title',
+      start: 'bottom 80%',
+      end: 'bottom -500%',
+      scrub: 4,
+      //markers: true,
+    }
+  });
+
 });
