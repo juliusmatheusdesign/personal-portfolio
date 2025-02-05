@@ -248,8 +248,8 @@
     max-height: 36.125rem;
 
     .content-contact {
-      padding-top: 6.5rem;
-      max-width: 54rem;
+      padding-top: 6.62rem;
+      max-width: 43rem;
 
       .title-contact {
         font-size: 2rem;
@@ -270,9 +270,9 @@
 
 }
 
-// Max-width 768
+// Max-width 834
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 834px) {
 
   #container {
     max-width: 768px;
@@ -323,16 +323,16 @@
 
           .tag-ux-ui-design {
             right: 34%;
-            top: 21%;
+            top: 22%;
           }
 
           .tag-identidade-visual {
-            top: 38%;
-            right: 1.5%;
+            top: 35%;
+            right: 3.5%;
           }
 
           .tag-developer-front-end {
-            top: 59%;
+            top: 52%;
             right: 27%;
           }
         }
@@ -477,11 +477,20 @@
       }
     }
 
+    .mobile-menu.open {
+      .mobile-menu-list {
+        list-style: none;
+        padding-top: 3.94rem;
+        margin: 0;
+        text-align: center;
+      }
+    }
+
   }
 
   .contact {
     .content-contact {
-      padding: 6.62rem 0;
+      padding-top: 6.62rem;
       max-width: 43rem;
 
       .title-contact {
@@ -687,16 +696,29 @@
         .area-grid-1 {
           .content-home {
             max-width: 320px;
+
+            .title-home {
+              font-size: 2.5rem;
+            }
+
+            p {
+              max-width: 18rem;
+            }
+
+            .companies-work {
+              gap: 1rem;
+            }
           }
         }
 
         .area-grid-2 {
           .photo {
             .home-img {
-              max-width: 18.8rem;
+              max-width: 17rem;
               height: auto;
               object-fit: cover;
               object-position: center;
+              border-radius: 1rem;
             }
           }
         }
@@ -706,7 +728,7 @@
     .projects {
       .content-works {
         .work-image {
-          max-width: 18.8rem;
+          max-width: 17rem;
         }
       }
     }
@@ -717,28 +739,72 @@
       .content-about {
         .about-grid-1 {
           .about-photo {
-            max-width: 18rem;
+            max-width: 17rem;
           }
         }
+
         .about-grid-2 {
           .content-about-grid-2 {
+            .about-grid-2-left {
+              .list-about-2 {
+                max-width: 18rem;
+              }
+            }
+
             .about-grid-2-right {
               .about-grid-2-photos-1 {
                 .about-grid-2-right-photo-1 {
-                  max-width: 8.5rem;
-                  max-height: 8.5rem;
+                  max-width: 8rem;
+                  max-height: 8rem;
                 }
+
                 .about-grid-2-right-photo-2 {
-                  max-width: 8.5rem;
-                  max-height: 8.5rem;
+                  max-width: 8rem;
+                  max-height: 8rem;
                 }
-                .about-grid-2-right-photo-3 {
-                  max-width: 18rem;
-                }
+              }
+
+              .about-grid-2-right-photo-3 {
+                max-width: 17rem;
               }
             }
           }
         }
+      }
+    }
+  }
+
+  .header {
+    .bg-menu {
+      .menu {
+        .brand-menu-container {
+          padding-top: 0.5rem;
+        }
+      }
+    }
+
+    .mobile-menu.open {
+      .mobile-menu-list {
+        padding-top: 3.94rem;
+
+        li {
+          margin: 1.5rem 0;
+
+          a {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .contact {
+    max-height: 43rem;
+
+    .content-contact {
+      .contact-btns {
+        display: flex;
+        flex-direction: column;
       }
     }
   }
