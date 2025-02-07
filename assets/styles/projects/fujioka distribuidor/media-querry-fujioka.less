@@ -592,10 +592,12 @@
             flex-direction: column;
           }
         }
+
         .wireframes {
           .mf-desktop {
             max-width: 21rem;
           }
+
           .desc-img-wireframes {
             font-size: 0.8rem;
           }
@@ -607,4 +609,19 @@
 
 // Max-width 320
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+  #container-top {
+    .projeto-header {
+      .header-inferior {
+        .tag-cliente,
+        .tag-segmento,
+        .tag-servico,
+        .tag-equipe,
+        .tag-cronograma {
+          padding: 1.25rem 0.5rem 1.25rem 0.5rem!important;
+          width: 8rem!important;
+        }
+      }
+    }
+  }
+}
