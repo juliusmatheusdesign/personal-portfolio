@@ -313,6 +313,9 @@
         font-weight: 700;
         line-height: 150%;
       }
+      .double-diamond-img-mobile {
+        display: none;
+      }
     }
   }
 }
@@ -933,6 +936,7 @@
         .cores-line-1 {
           display: flex;
           gap: 2rem;
+          flex-wrap: wrap;
 
           .primary-cor-1 {
             max-width: 11rem;
@@ -1180,12 +1184,6 @@
               }
             }
           }
-        }
-
-        .cores-line-2 {
-          display: flex;
-          gap: 2rem;
-          padding-top: 2rem;
 
           .neutral-cor-5 {
             max-width: 11rem;
@@ -1393,12 +1391,6 @@
               }
             }
           }
-        }
-
-        .cores-line-2 {
-          display: flex;
-          gap: 2rem;
-          padding-top: 2rem;
 
           .semantic-cor-5 {
             max-width: 11rem;
@@ -1673,6 +1665,7 @@
       }
     }
   }
+
   .wireframes {
     .sub-title-wireframes {
       color: @neutralcolors-90;
@@ -1683,11 +1676,11 @@
       line-height: 120%;
       padding-bottom: 2rem;
     }
-  
+
     .mf-desktop {
       max-width: 50rem;
     }
-  
+
     .desc-img-wireframes {
       color: @neutralcolors-40;
       text-align: center;
