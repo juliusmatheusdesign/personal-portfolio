@@ -586,92 +586,85 @@
   }
 }
 
-.bg-dark-brown {
-  background: #544019;
-  padding: 7rem 4rem;
-}
+.paleta-de-cores {
+  background: url(/assets/images/bg-busto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 62.5rem;
+  background-position: center;
 
-.projeto-paleta-cores-top {
-  display: flex;
-  gap: 35.38rem;
+  .projeto-paleta-cores-top {
+    display: flex;
+    padding-top: 4rem;
+    margin-left: -8%;
 
-  .paleta-cores-top-direita {
-    .title-paleta-cores {
-      color: @neutralcolors-white;
-      font-family: @fluent-bold;
-      font-size: 2.5rem;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 120%;
-      max-width: 11rem;
-    }
-  }
+    .paleta-cores-top-direita {
+      .title-paleta-cores {
+        color: @neutralcolors-white;
+        font-family: @fluent-bold;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        max-width: 11rem;
+      }
 
-  .projeto-paleta-cores-esquerda {
-    .desc-paleta-cores {
-      max-width: 30.5rem;
-      color: #FFF7E9;
-      font-family: @fluent-regular;
-      font-size: 1.125rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 150%;
-      padding-bottom: 15.81rem;
+      .busto {
+        margin-top: -3.1%;
+      }
     }
 
-    .codigo-cor {
-      color: @neutralcolors-white;
-      font-family: @fluent-regular;
-      font-size: 2rem;
-      font-style: normal;
-      font-weight: 300;
-      line-height: 120%;
-      letter-spacing: 0.4rem;
-      float: right;
-    }
-  }
-}
+    .paleta-cores-text {
+      display: flex;
+      flex-direction: column;
+      gap: 6.94rem;
 
-.bg-orange {
-  background: #BE8110;
-  padding: 2.94rem 4rem;
-  height: 31.25rem;
-}
+      .projeto-paleta-cores-esquerda {
+        .desc-paleta-cores {
+          max-width: 30.5rem;
+          color: #FFF7E9;
+          font-family: @fluent-regular;
+          font-size: 1.125rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+          padding-bottom: 15.81rem;
+        }
 
-.projeto-paleta-cores-bottom {
-  display: flex;
+        .codigo-cor {
+          color: @neutralcolors-white;
+          font-family: @fluent-regular;
+          font-size: 2rem;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 120%;
+          letter-spacing: 0.4rem;
+          float: right;
+        }
+      }
 
-  .paleta-cores-bottom-direita {
-    padding-left: 45.5rem;
+      .paleta-cores-bottom-direita {
+        .desc-paleta-cores {
+          max-width: 30.5rem;
+          color: #FFF7E9;
+          font-family: @fluent-regular;
+          font-size: 1.125rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+        }
 
-    .desc-paleta-cores {
-      max-width: 30.5rem;
-      color: #FFF7E9;
-      font-family: @fluent-regular;
-      font-size: 1.125rem;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 150%;
-    }
-
-    .codigo-cor {
-      color: @neutralcolors-white;
-      font-family: @fluent-regular;
-      font-size: 2rem;
-      font-style: normal;
-      font-weight: 300;
-      line-height: 120%;
-      letter-spacing: 0.4rem;
-      padding-top: 13.5rem;
-      float: right;
-    }
-  }
-
-  .paleta-cores-bottom-esquerda {
-    .busto {
-      .busto-img {
-        position: absolute;
-        margin-top: -21.74%;
+        .codigo-cor {
+          color: @neutralcolors-white;
+          font-family: @fluent-regular;
+          font-size: 2rem;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 120%;
+          letter-spacing: 0.4rem;
+          padding-top: 13.5rem;
+          float: right;
+        }
       }
     }
   }
@@ -727,15 +720,19 @@
       display: flex;
       gap: 2.5rem;
       flex-direction: column;
-      .spacing-logo-1, .spacing-logo-2, .spacing-logo-3 {
+
+      .spacing-logo-1,
+      .spacing-logo-2,
+      .spacing-logo-3 {
         max-width: 37rem;
-    }
+      }
     }
   }
 }
 
 .projeto-exemplos-aplication {
   padding-top: 7.5rem;
+
   .exemplos-aplication-esquerda {
     .title-exemplos-aplication {
       color: @neutralcolors-50;
