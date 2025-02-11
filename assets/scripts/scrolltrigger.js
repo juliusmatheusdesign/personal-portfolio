@@ -55,7 +55,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
           //markers: true,
         },
       });
+
+      gsap.to(".concent-conceito-direito", {
+        y: 850,
+        duration: 3,
+        ease: "linear",
+        scrollTrigger: {
+          trigger: ".concent-conceito-direito",
+          start: "bottom 80%",
+          end: "bottom -150%",
+          scrub: 2,
+          //markers: true,
+        },
+      });
     }
-    // Você pode definir outras condições, se necessário.
   });
 });
