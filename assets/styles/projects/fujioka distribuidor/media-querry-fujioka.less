@@ -12,7 +12,278 @@
 
 // Max-width 1024
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
+  #container {
+    max-width: 850px;
+
+    .projeto-etapas-do-design {
+      max-width: 850px;
+
+      .etapas-content {
+        .etapas-esquerda {
+          .etapas-title {
+            max-width: 50rem;
+            padding-bottom: 3rem;
+          }
+        }
+
+        .etapas-direita {
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+
+          .etapas-problem {
+            max-width: 50rem;
+            font-size: 1.2rem;
+            padding-bottom: 3rem;
+            font-weight: 500;
+          }
+
+          img {
+            max-width: 43rem;
+          }
+        }
+      }
+    }
+
+    .projeto-pesquisas {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 850px;
+
+      .pesquisas-esquerda {
+        .pesquisas-title {
+          max-width: 43rem;
+          width: 43rem;
+        }
+      }
+
+      .pesquisas-direita {
+        .lists-matriz {
+          .matriz-csd-list-title {
+            font-size: 1.5rem;
+          }
+
+          .matriz-csd-item-list {
+            font-size: 1.125rem;
+          }
+        }
+
+        .matriz-csd {
+          max-width: 43rem;
+          width: auto;
+        }
+
+        .desc-imagem {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .projeto-dados {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 850px;
+
+      .dados-esquerda {
+        .dados-title {
+          max-width: 43rem;
+        }
+      }
+
+      .dados-direita {
+        .dados-graphic {
+          gap: 1rem;
+        }
+
+        .graphic-users {
+          max-width: 21rem;
+          padding: 1rem 0.65rem;
+        }
+
+        .graphic-demographic {
+          max-width: 21rem;
+          padding: 1rem 0.65rem;
+        }
+
+        .title-questions {
+          font-size: 1.5rem;
+        }
+
+        .item-list-questions {
+          font-size: 1.125rem;
+        }
+
+        .desc-graphic {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .projeto-fluxo-users {
+      .fluxo-content {
+        display: flex;
+        flex-direction: column;
+        max-width: 850px;
+        gap: 2rem;
+
+        .fluxo-esquerda {
+          .fluxo-title {
+            max-width: 43rem;
+          }
+        }
+
+        .fluxo-direita {
+          .fluxo-example {
+            max-width: 43rem;
+          }
+
+          .desc-image-fluxo {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .projeto-solution {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 850px;
+      padding-top: 5rem;
+
+      .solution-esquerda {
+        .solution-title {
+          max-width: 40rem;
+        }
+      }
+
+      .solution-direita {
+        .design-system-solution {
+          .tipografia-system {
+            .name {
+              font-size: 4rem;
+            }
+
+            .alfabeto {
+              font-size: 1rem;
+            }
+          }
+        }
+
+        .wireframes {
+          .mf-desktop {
+            max-width: 43rem;
+          }
+
+          .desc-img-wireframes {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .bg-black {
+    padding: 3.5rem 0;
+  }
+
+  #container-top {
+    padding: 8rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+
+    .projeto-header {
+      max-width: 850px;
+      display: flex;
+      flex-direction: column;
+
+      .header-esquerdo {
+        max-width: 43.5rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+
+        .titulo-do-projeto {
+          max-width: 43.5rem;
+        }
+      }
+
+      .header-direito {
+        display: none;
+      }
+
+      .header-inferior {
+        .tags-projeto {
+          display: flex;
+          gap: 1rem;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+        }
+      }
+    }
+
+    .projeto-about {
+      max-width: 850px;
+      gap: 2rem;
+      flex-direction: column;
+
+      .about-esquerda {
+        .about-title {
+          max-width: 100% !important;
+        }
+      }
+
+      .about-direita {
+        .about-list-esquerda {
+          max-width: 21rem;
+        }
+
+        .about-list-direita {
+          max-width: 20rem;
+          padding: 0 !important;
+        }
+
+        .about-list-title {
+          font-size: 1.5rem;
+        }
+
+        .about-item-list {
+          font-size: 1.125rem;
+        }
+      }
+    }
+
+    .projeto-metas {
+      max-width: 850px;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding-bottom: 4rem;
+
+      .metas-esquerda {
+        .metas-title {
+          max-width: 50rem;
+        }
+      }
+
+      .metas-direita {
+        .metas-list {
+          padding: 2rem 0 2rem 2rem;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  .contact {
+    .content-contact {
+      max-width: 850px;
+    }
+  }
+}
 
 // Max-width 834
 
@@ -613,13 +884,14 @@
   #container-top {
     .projeto-header {
       .header-inferior {
+
         .tag-cliente,
         .tag-segmento,
         .tag-servico,
         .tag-equipe,
         .tag-cronograma {
-          padding: 1.25rem 0.5rem 1.25rem 0.5rem!important;
-          width: 8rem!important;
+          padding: 1.25rem 0.5rem 1.25rem 0.5rem !important;
+          width: 8rem !important;
         }
       }
     }
