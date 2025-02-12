@@ -732,6 +732,7 @@
 
 .projeto-exemplos-aplication {
   padding-top: 7.5rem;
+  padding-bottom: 5rem;
 
   .exemplos-aplication-esquerda {
     display: flex;
@@ -755,6 +756,90 @@
       font-style: normal;
       font-weight: 400;
       line-height: 170%;
+    }
+  }
+
+  .exemplos-aplication-direita {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .mockups {
+      img {
+        width: 100%;
+        background-size: cover;
+        padding-bottom: 2.5rem;
+      }
+    }
+
+    .aprendizados {
+      padding-left: 33rem;
+
+      .sub-title-exemplos-aplication {
+        color: @neutralcolors-90;
+        font-family: @fluent-semibold;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        padding-bottom: 2.5rem;
+      }
+
+
+      .desc-exemplos-aplication {
+        max-width: 43.5rem;
+        color: @neutralcolors-40;
+        font-family: @font-inter;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+      }
+    }
+  }
+}
+
+.nav-projects {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+
+  .back-project {
+    a {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      color: @neutralcolors-90;
+      font-family: @fluent-semibold;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+      transition: ease-in-out 0.3s;
+
+      :hover {
+        color: @neutralcolors-40;
+        transition: ease-in-out 0.3s;
+      }
+    }
+  }
+
+  .next-project {
+    a {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      color: @neutralcolors-90;
+      font-family: @fluent-semibold;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+      transition: ease-in-out 0.3s;
+
+      :hover {
+        color: @neutralcolors-40;
+        transition: ease-in-out 0.3s;
+      }
     }
   }
 }
