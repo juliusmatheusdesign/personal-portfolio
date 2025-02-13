@@ -57,13 +57,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
       });
 
       gsap.to(".concent-conceito-direito", {
-        y: 850,
+        y: 580,
         duration: 3,
         ease: "linear",
         scrollTrigger: {
           trigger: ".concent-conceito-direito",
           start: "bottom 80%",
-          end: "bottom -150%",
+          end: "bottom -10%",
           scrub: 2,
           //markers: true,
         },

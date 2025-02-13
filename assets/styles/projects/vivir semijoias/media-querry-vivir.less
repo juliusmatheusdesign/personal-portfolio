@@ -66,10 +66,289 @@
     .header-inferior {
       .tags-projeto {
         padding-top: 12rem;
-        gap: 1rem;
+        gap: 0.5rem;
         flex-wrap: wrap;
         justify-content: flex-start;
+
+        .tag-cliente,
+        .tag-segmento,
+        .tag-servico,
+        .tag-equipe,
+        .tag-cronograma {
+          padding: 1.3rem 0 1.3rem 0;
+          width: 9.3rem;
+        }
       }
+    }
+  }
+
+  .projeto-about {
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 5.5rem;
+
+    .about-esquerda {
+      .about-title {
+        max-width: 49rem;
+      }
+    }
+
+    .about-direita {
+      .about-list-title {
+        padding: 2rem 0;
+      }
+    }
+  }
+
+  .projeto-metas {
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 5.5rem;
+
+    .metas-esquerda {
+      .metas-title {
+        max-width: 49rem;
+      }
+    }
+
+    .metas-direita {
+      .metas-list {
+        max-width: 49rem;
+        padding: 2rem 0 2rem 2rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  #container {
+    padding: 0rem 7rem 0 7rem;
+    display: block;
+  }
+
+  .projeto-conceito-marca {
+    gap: 3.5rem;
+
+    .conceito-direito {
+      .rectangle-brown {
+        max-width: 20rem;
+        width: 20rem;
+      }
+
+      .concent-conceito-direito {
+        max-width: 20rem;
+        gap: 0rem;
+
+        .frase-conceito-direito {
+          font-size: 1.3rem;
+          max-width: 13.5rem;
+          padding-top: 3.31rem;
+
+          span {
+            font-size: 0.9rem;
+            padding-top: 0.5rem;
+          }
+        }
+
+        .anel-flutuante {
+          img {
+            max-width: 10rem;
+          }
+        }
+      }
+    }
+
+    .conceito-esquerdo {
+      .title-conceito {
+        max-width: 25rem;
+        padding-bottom: 2rem;
+      }
+
+      .sub-title-conceito {
+        padding-bottom: 1.5rem;
+      }
+    }
+  }
+
+  .projeto-conceito-simbolo {
+    flex-direction: column;
+
+    .conceito-simbolo-esquerda {
+      padding: 0;
+
+      .title-conceito-simbolo {
+        max-width: 49rem;
+        padding-bottom: 2rem;
+      }
+    }
+
+    .conceito-simbolo-centro {
+      padding: 0;
+      display: flex;
+      gap: 6rem;
+
+      .pedra-lapidada {
+        padding-bottom: 2rem;
+      }
+    }
+
+    .conceito-simbolo-direita {
+      .desc-conceito-direita {
+        max-width: 49rem;
+      }
+    }
+  }
+
+  .bg-brown {
+    padding: 4.5rem 0;
+  }
+
+  .projeto-tipografia {
+    gap: 3.5rem;
+    padding: 4.5rem 0 4.5rem 0;
+
+    .tipografia-direita {
+      .tipografia-pattern {
+        .content-caixa-flutuante {
+          img {
+            max-width: 25rem;
+          }
+        }
+
+        .rectangle-pattern {
+          max-width: 20rem;
+
+          img {
+            max-width: 20rem;
+            height: 60rem;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .tipografia-esquerda {
+      .title-tipografia {
+        max-width: 26rem;
+        padding-bottom: 2rem;
+      }
+
+      .desc-tipografia {
+        padding-bottom: 2rem
+      }
+
+      .tipografia-system {
+        .style-aviex {
+          .name {
+            font-size: 3.5rem;
+          }
+        }
+
+        .style-marnope {
+          .name {
+            font-size: 3.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  .paleta-de-cores {
+    .projeto-paleta-cores-top {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      .paleta-cores-top-direita {
+        .busto {
+          display: none;
+        }
+
+        .title-paleta-cores {
+          max-width: 20rem;
+          padding: 0;
+        }
+      }
+
+      .paleta-cores-text {
+        .projeto-paleta-cores-esquerda {
+          .desc-paleta-cores {
+            padding-bottom: 12rem;
+          }
+
+          .codigo-cor {
+            float: none;
+          }
+        }
+
+        .paleta-cores-bottom-direita {
+          .codigo-cor {
+            float: none;
+          }
+        }
+      }
+
+    }
+  }
+
+  .projeto-construction-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4.5rem 0 4.5rem 0;
+
+    .construction-logo-esquerda {
+      .title-construction-logo {
+        max-width: 49rem;
+      }
+    }
+
+    .construction-logo-direita {
+      .spacing-construction-logo {
+        display: flex;
+        gap: 2.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .spacing-logo-1,
+        .spacing-logo-2,
+        .spacing-logo-3 {
+          max-width: 23rem;
+        }
+      }
+    }
+  }
+
+  .projeto-exemplos-aplication {
+    padding-top: 4.5rem;
+    padding-bottom: 4rem;
+
+    .exemplos-aplication-esquerda {
+      display: flex;
+      gap: 2rem;
+      flex-direction: column;
+
+      .title-exemplos-aplication {
+        max-width: 49rem;
+      }
+    }
+
+    .exemplos-aplication-direita {
+      padding-bottom: 0rem;
+
+      .aprendizados {
+        padding: 0;
+
+        .sub-title-exemplos-aplication {
+          padding-bottom: 2rem;
+        }
+      }
+    }
+  }
+
+  .contact {
+    .content-contact {
+      max-width: 49rem;
     }
   }
 }
@@ -79,6 +358,7 @@
 @media only screen and (max-width: 834px) {
   #container {
     max-width: 768px;
+    padding: 0 2rem 0 2rem;
 
     .projeto-etapas-do-design {
       max-width: 680px;
@@ -248,6 +528,193 @@
         }
       }
     }
+
+    .projeto-conceito-marca {
+      gap: 2rem;
+      display: flex;
+      flex-direction: column;
+
+      .conceito-direito {
+        .concent-conceito-direito {
+          max-width: 20rem;
+          gap: 1rem;
+          margin-top: -3%;
+          margin-left: 26%;
+
+          .anel-flutuante {
+            img {
+              max-width: 10rem;
+              margin-top: 18%;
+            }
+          }
+        }
+
+        .rectangle-brown {
+          max-width: 32rem;
+          width: 43rem;
+          max-height: 12rem;
+          margin: 0 auto;
+        }
+      }
+
+      .conceito-esquerdo {
+        max-width: 49rem;
+
+        .desc-sub-conceito {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .projeto-conceito-simbolo {
+      .conceito-simbolo-direita {
+        .desc-conceito-direita {
+          font-size: 1rem;
+        }
+      }
+
+      .conceito-simbolo-centro {
+        img {
+          max-width: 16rem;
+        }
+      }
+    }
+
+    .projeto-tipografia {
+      display: flex;
+      gap: 2rem;
+      padding: 4.5rem 0 4.5rem 0;
+      flex-direction: column;
+
+      .tipografia-esquerda {
+        max-width: 49rem;
+
+        .desc-tipografia {
+          font-size: 1rem;
+        }
+
+        .tipografia-system {
+          display: flex;
+          gap: 5rem;
+
+          .style-aviex {
+            .alfabeto {
+              font-size: 1rem;
+            }
+
+            .alfabeto-2 {
+              font-size: 1rem;
+            }
+
+            .numbers {
+              font-size: 1rem;
+            }
+
+            .caracters {
+              font-size: 1rem;
+            }
+          }
+
+          .style-marnope {
+            .alfabeto {
+              font-size: 1rem;
+            }
+
+            .alfabeto-2 {
+              font-size: 1rem;
+            }
+
+            .numbers {
+              font-size: 1rem;
+            }
+
+            .caracters {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+
+      .tipografia-direita {
+        .tipografia-pattern {
+          .rectangle-pattern {
+            img {
+              max-width: 43rem;
+              width: 43rem;
+              height: 15rem;
+              object-fit: cover;
+            }
+          }
+
+          .content-caixa-flutuante {
+            position: absolute;
+            margin-left: 21%;
+            margin-top: -6%;
+
+            img {
+              max-width: 23rem;
+            }
+          }
+        }
+      }
+    }
+
+    .projeto-construction-logo {
+      padding: 3.5rem 0 3.5rem 0;
+
+      .construction-logo-direita {
+        .desc-construction-logo {
+          font-size: 1rem;
+        }
+
+        .grids-construction-logo {
+          img {
+            max-width: 20rem;
+            object-fit: cover;
+          }
+        }
+
+        .spacing-construction-logo {
+
+          .spacing-logo-1,
+          .spacing-logo-2,
+          .spacing-logo-3 {
+            max-width: 20rem;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .projeto-exemplos-aplication {
+      padding-top: 0;
+      .exemplos-aplication-esquerda {
+        .desc-exemplos-aplication {
+          font-size: 1rem;
+        }
+      }
+
+      .exemplos-aplication-direita {
+        .aprendizados {
+          .desc-exemplos-aplication {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+  }
+
+  .paleta-de-cores {
+    .projeto-paleta-cores-top {
+      .paleta-cores-text {
+        .projeto-paleta-cores-esquerda {
+          .desc-paleta-cores {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
   }
 
   .bg-black {
@@ -264,6 +731,7 @@
       max-width: 680px;
       display: flex;
       flex-direction: column;
+      padding-bottom: 4rem;
 
       .header-esquerdo {
         max-width: 43.5rem;
@@ -272,6 +740,11 @@
 
         .titulo-do-projeto {
           max-width: 43.5rem;
+          padding-bottom: 2rem;
+        }
+
+        .descricao-do-projeto {
+          font-size: 1rem;
         }
       }
 
@@ -282,9 +755,10 @@
       .header-inferior {
         .tags-projeto {
           display: flex;
-          gap: 2rem;
+          gap: 1rem;
           justify-content: flex-start;
           flex-wrap: wrap;
+          padding: 0;
         }
       }
     }
@@ -293,6 +767,7 @@
       max-width: 680px;
       gap: 2rem;
       flex-direction: column;
+      padding-bottom: 4rem;
 
       .about-esquerda {
         .about-title {
@@ -315,7 +790,11 @@
         }
 
         .about-item-list {
-          font-size: 1.125rem;
+          font-size: 1rem;
+        }
+
+        .about-desc {
+          font-size: 1rem;
         }
       }
     }
@@ -336,11 +815,13 @@
       .metas-direita {
         .metas-list {
           padding: 2rem 0 2rem 2rem;
-          font-size: 2rem;
+          font-size: 1.5rem;
         }
       }
     }
   }
+
+
 }
 
 // Max-width 430
