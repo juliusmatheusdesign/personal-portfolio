@@ -688,6 +688,7 @@
 
     .projeto-exemplos-aplication {
       padding-top: 0;
+
       .exemplos-aplication-esquerda {
         .desc-exemplos-aplication {
           font-size: 1rem;
@@ -782,7 +783,7 @@
 
         .about-list-direita {
           max-width: 20rem;
-          padding: 0 !important;
+          padding: 0;
         }
 
         .about-list-title {
@@ -821,13 +822,190 @@
     }
   }
 
+  .contact {
+    .content-contact {
+      padding: 6.62rem 2rem 0 2rem;
+    }
+  }
+
 
 }
 
 // Max-width 430
 
-@media only screen and (max-width: 430px) {}
+@media only screen and (max-width: 430px) {
+  #container-top {
+
+    .projeto-header {
+      .header-esquerdo {
+        .titulo-do-projeto {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .projeto-about {
+      .about-direita {
+        .about-list-direita {
+          float: left;
+          padding: 0.5rem 0 0 0;
+        }
+      }
+
+      .about-esquerda {
+        .about-title {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .projeto-metas {
+      .metas-esquerda {
+        .metas-title {
+          font-size: 2rem;
+        }
+      }
+
+      .metas-direita {
+        .metas-list {
+          padding: 1rem 0 1rem 1rem;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  #container {
+
+    .projeto-conceito-marca {
+      .conceito-esquerdo {
+        .title-conceito {
+          font-size: 2rem;
+        }
+      }
+
+      .conceito-direito {
+        display: none;
+      }
+    }
+
+    .projeto-conceito-simbolo {
+      .conceito-simbolo-centro {
+        padding: 0 0 2rem 0;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+      }
+
+      .conceito-simbolo-esquerda {
+        .title-conceito-simbolo {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .projeto-tipografia {
+      .tipografia-esquerda {
+        .title-tipografia {
+          font-size: 2rem;
+        }
+
+        .tipografia-system {
+          display: flex;
+          gap: 2rem;
+          flex-direction: column;
+
+          .style-aviex {
+            padding-bottom: 0;
+          }
+        }
+      }
+
+      .tipografia-direita {
+        display: none;
+      }
+    }
+
+    .projeto-construction-logo {
+      .construction-logo-esquerda {
+        .title-construction-logo {
+          font-size: 2rem;
+        }
+      }
+
+      .construction-logo-direita {
+        .grids-construction-logo {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+
+    .projeto-exemplos-aplication {
+      .exemplos-aplication-esquerda {
+        .title-exemplos-aplication {
+          font-size: 2rem;
+        }
+      }
+    }
+
+  }
+
+  .paleta-de-cores {
+    .projeto-paleta-cores-top {
+      .paleta-cores-top-direita {
+        .title-paleta-cores {
+          font-size: 2rem;
+        }
+      }
+
+      .paleta-cores-text {
+        gap: 5.5rem;
+
+        .paleta-cores-bottom-direita {
+          .desc-paleta-cores {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
 
 // Max-width 320
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+
+  #container {
+    .projeto-construction-logo {
+      .construction-logo-direita {
+        .spacing-construction-logo {
+
+          .spacing-logo-1,
+          .spacing-logo-2,
+          .spacing-logo-3 {
+            max-width: 15rem;
+          }
+        }
+      }
+    }
+  }
+
+  .paleta-de-cores {
+    .projeto-paleta-cores-top {
+      .paleta-cores-text {
+        .projeto-paleta-cores-esquerda {
+          .desc-paleta-cores {
+            padding-bottom: 9rem;
+          }
+        }
+
+        .paleta-cores-bottom-direita {
+          .codigo-cor {
+            padding-top: 9.5rem;
+          }
+        }
+      }
+    }
+  }
+}
