@@ -1,0 +1,513 @@
+// Imports
+
+@import url(/assets/styles/root.less);
+
+// Header
+
+.header {
+  position: fixed;
+  z-index: 1000;
+  height: 6rem;
+  max-height: 6rem;
+  width: 100%;
+  background-color: #FFFFFF;
+
+  .bg-menu {
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #DADADA;
+
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 7rem;
+
+      .brand-menu-container {
+        a.logo-menu {
+          color: @neutralcolors-90;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 120%;
+          font-family: @fluent-bold;
+          transition: ease-in-out 0.3s;
+        }
+
+        a.logo-menu:hover {
+          color: @neutralcolors-40;
+        }
+      }
+
+      nav {
+        ul.menu {
+          padding: 0;
+          gap: 3rem;
+
+          li {
+            a {
+              font-family: @fluent-semibold;
+              font-size: 1rem;
+              line-height: 120%;
+              color: @neutralcolors-90;
+              transition: ease-in-out 0.3s;
+              padding: 2.37rem 0 2.44rem 0px;
+            }
+
+            a:hover {
+              color: @neutralcolors-40;
+              box-shadow: inset 0 -5px 0 0 @neutralcolors-90;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#container-top {
+  padding: 8rem 7rem 0 7rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#container {
+  padding: 0rem 7rem 0 7rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+// Content
+
+.projeto-header {
+  padding-bottom: 7.5rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  .header-esquerdo {
+    max-width: 37rem;
+    padding-top: 6rem;
+    position: relative;
+    z-index: 900;
+
+    .back-projeto {
+      a {
+        display: flex;
+        gap: 1rem;
+        color: @neutralcolors-50;
+        font-family: @fluent-bold;
+        font-size: 1rem;
+        font-size: normal;
+        font-weight: 700;
+        line-height: 120%;
+      }
+    }
+
+    .titulo-do-projeto {
+      padding: 2.5rem 0 2.5rem 0;
+      color: @neutralcolors-50;
+      font-family: @fluent-regular;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+      max-width: 30.5rem;
+    }
+
+    .descricao-do-projeto {
+      color: @neutralcolors-40;
+      font-family: @font-inter;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+      max-width: 37rem;
+    }
+  }
+
+  .header-direito {
+    max-width: 37rem;
+    padding-left: 2rem;
+    padding-top: 6rem;
+  }
+
+  .header-inferior {
+    margin: 0 auto;
+
+    .tags-projeto {
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+      padding-top: 5rem;
+    }
+
+    .tag-cliente,
+    .tag-servico,
+    .tag-segmento,
+    .tag-equipe,
+    .tag-cronograma {
+      border-radius: 0.5rem;
+      border: 1px solid @neutralcolors-30;
+      padding: 2.25rem 0 2.25rem 0;
+      width: 11rem;
+
+      .icone-tag {
+        text-align: center;
+        padding-bottom: 0.5rem;
+      }
+
+      .titulo-tag {
+        color: @neutralcolors-50;
+        text-align: center;
+        font-family: @font-inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+      }
+
+      .desc-tag {
+        color: @neutralcolors-50;
+        text-align: center;
+        font-family: @font-inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+    }
+  }
+}
+
+.projeto-about {
+  max-width: 72.5rem;
+  display: flex;
+  gap: 8.5rem;
+  padding-bottom: 7.5rem;
+
+  .about-esquerda {
+    .about-title {
+      max-width: 17.5rem;
+      color: @neutralcolors-50;
+      font-family: @fluent-regular;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+    }
+  }
+
+  .about-direita {
+    .about-desc {
+      max-width: 50rem;
+      color: @neutralcolors-40;
+      font-family: @font-inter;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+    }
+
+    .about-list-esquerda {
+      float: left;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      max-width: 24.625rem;
+    }
+
+    .about-list-direita {
+      float: right;
+      padding-left: 1.37rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      max-width: 20.5rem;
+    }
+
+    .about-list-title {
+      padding: 3rem 0;
+      color: @neutralcolors-90;
+      font-family: @fluent-medium;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+    }
+
+    .about-item-list {
+      color: @neutralcolors-40;
+      font-family: @font-inter;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+  }
+}
+
+.projeto-metas {
+  display: flex;
+  gap: 13.19rem;
+  padding-bottom: 7.5rem;
+
+  .metas-esquerda {
+    .metas-title {
+      max-width: 10.8125rem;
+      color: @neutralcolors-50;
+      font-family: @fluent-regular;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+    }
+  }
+
+  .metas-direita {
+    .metas-list {
+      max-width: 49.8125rem;
+      padding: 5rem 0 5rem 2rem;
+      color: @neutralcolors-50;
+      font-family: @fluent-semibold;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      border-top: 1px solid @neutralcolors-30;
+      border-bottom: 1px solid @neutralcolors-30;
+    }
+  }
+}
+
+.projeto-conceito {
+  padding-bottom: 8rem;
+  .conceito-esquerda {
+    .title-conceito {
+      max-width: 10.8125rem;
+      color: @neutralcolors-50;
+      font-family: @fluent-regular;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+    }
+  }
+
+  .conceito-direita {
+    padding-top: 5rem;
+    display: flex;
+    gap: 2rem;
+    .content-conceito-direita-1 {
+      .conceito-proposito, .conceito-visao {
+        max-width: 37rem;
+        .sub-title-conceito {
+          color: @neutralcolors-90;
+          font-family: @fluent-medium;
+          font-size: 1.5rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 120%;
+          padding-bottom: 2.5rem;
+        }
+        .desc-conceito {
+          max-width: 37rem;
+          color: @neutralcolors-40;
+          font-family: @font-inter;
+          font-size: 1.125rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%;
+          padding-bottom: 2.5rem;
+        }
+      }
+    }
+
+    .content-conceito-direita-2 {
+      .conceito-missao {
+        max-width: 37rem;
+        .sub-title-conceito {
+          color: @neutralcolors-90;
+          font-family: @fluent-medium;
+          font-size: 1.5rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 120%;
+          padding-bottom: 2.5rem;
+        }
+        .desc-conceito {
+          max-width: 37rem;
+          color: @neutralcolors-40;
+          font-family: @font-inter;
+          font-size: 1.125rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 170%;
+          padding-bottom: 2.5rem;
+        }
+      }
+      .conceito-valores {
+        max-width: 37rem;
+        .sub-title-conceito {
+          color: @neutralcolors-90;
+          font-family: @fluent-medium;
+          font-size: 1.5rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 120%;
+          padding-bottom: 2.5rem;
+        }
+        .lists {
+          display: flex;
+          gap: 3.38rem;
+          .list-conceito-1, .list-conceito-2 {
+            .list-item {
+              color: @neutralcolors-40;
+              font-family: @font-inter;
+              font-size: 1.125rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 150%;
+              padding-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.bg-purple {
+  background: #2F294E;
+  max-height: 44.6875rem;
+  padding: 7.5rem 0;
+}
+
+.projeto-conceito-simbolo {
+  display: flex;
+  gap: 13.25rem;
+  .simbolo-direita {
+    .title-simbolo {
+      color: #EADDDA;
+      font-family: @fluent-regular;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      max-width: 12.75rem;
+      width: 12.75rem;
+    }
+  }
+  
+  .simbolo-esquerda {
+    .simbolo-esquerda-1 {
+      .content-simbolo-esquerda-1 {
+        display: flex;
+        gap: 8.5rem;
+        padding-bottom: 5rem;
+        .letra-m-simbolo, .ganchos-simbolo, .borboleta-simbolo {
+          .sub-title-simbolo {
+            color: #C7B8FF;
+            font-family: @fluent-regular;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            padding-bottom: 0.5rem;
+          }
+          .desc-simbolo {
+            color: #EADDDA;
+            font-family: @fluent-regular;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            padding-bottom: 1.5rem;
+          }
+        }
+      }
+    }
+    .simbolo-esquerda-2 {
+      .desc-simbolo {
+        color: #FFF7E9;
+        font-family: @fluent-regular;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+    }
+  }
+}
+
+.projeto-tipografia {
+  padding: 7.5rem 0 7.12rem 0;
+  .tipografia-esquerda {
+    .title-tipografia {
+      color: @neutralcolors-50;
+      font-family: @fluent-regular;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      max-width: 12rem;
+      padding-bottom: 2.5rem;
+    }
+    .desc-tipografia {
+      max-width: 30.5rem;
+      color: @neutralcolors-40;
+      font-family: @font-inter;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+    }
+  }
+}
+
+.nav-projects {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+
+  .back-project {
+    a {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      color: @neutralcolors-90;
+      font-family: @fluent-semibold;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+      transition: ease-in-out 0.3s;
+
+      :hover {
+        color: @neutralcolors-40;
+        transition: ease-in-out 0.3s;
+      }
+    }
+  }
+
+  .next-project {
+    a {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      color: @neutralcolors-90;
+      font-family: @fluent-semibold;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+      transition: ease-in-out 0.3s;
+
+      :hover {
+        color: @neutralcolors-40;
+        transition: ease-in-out 0.3s;
+      }
+    }
+  }
+}

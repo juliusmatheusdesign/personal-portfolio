@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Com mais de 3 anos de experiência em design, crio soluções digitais que combinam criatividade e funcionalidade. Meu foco está em desenvolver interfaces intuitivas e visuais atraentes, sempre alinhadas às melhores práticas de UX e UI." />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!----------------------------- CSS ----------------------------->
+  <link rel="stylesheet/less" type="text/css" href="/assets/styles/home.less">
+
+  <link rel="stylesheet/less" href="/assets/styles/projects/mademoiselle/projeto.less">
+
+  <link rel="stylesheet/less" href="/assets/styles/media-query.less">
+
+  <link rel="stylesheet/less" href="/assets/styles/projects/mademoiselle/media-querry-mademoiselle.less">
+
+  <link rel="stylesheet/less" type="text/css" href="/assets/styles/root.less">
+
+
+  <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+
+  <!----------------------------- SCRIPT ----------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/less" defer></script>
+  <script src="/assets/scripts/menu-fixed.js" defer></script>
+  <script src="/assets/scripts/back-to-top.js" defer></script>
+  <script src="/assets/scripts/menu-mobile.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" defer></script>
+  <script src="/assets/scripts/scrolltrigger.js"></script>
+
+  <title>
+    Entre costuras e pixels: a identidade visual de uma marca de shorts jeans
+  </title>
+</head>
+
+<body>
+  <!--------------------- HEADER ------------------------>
+  <header class="header">
+    <div class="bg-menu" id="navbar">
+      <div class="menu">
+        <div class="brand-menu-container">
+          <a href="https://juliusmatheusdesign.vercel.app/" class="logo-menu">JULIUS MATHEUS</a>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="https://juliusmatheusdesign.vercel.app/#projects">Projetos</a></li>
+            <li><a href="https://juliusmatheusdesign.vercel.app/#about">Sobre mim</a></li>
+            <li><a href="https://juliusmatheusdesign.vercel.app/#contact">Contato</a></li>
+            <li><a href="/assets/pdf/cv-julius-matheus.pdf" target="_blank">Currículo</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+          ☰
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-btn" id="closeBtn">✖</div>
+      <ul class="mobile-menu-list">
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="./assets/pdf/cv-julius-matheus.pdf" target="_blank">Currículo</a></li>
+      </ul>
+    </div>
+  </header>
+  <section id="container-top">
+    <!--------------------- PROJETO ------------------------>
+    <div class="projeto-header">
+      <div class="header-esquerdo">
+        <div class="back-projeto"><a href="https://juliusmatheusdesign.vercel.app/#projects">
+            <div class="icone-voltar">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="11" viewBox="0 0 22 11" fill="none">
+                <path
+                  d="M6.54589 7.32959H21.2891C21.6127 7.32959 21.875 7.06723 21.875 6.74365V4.00927C21.875 3.68569 21.6127 3.42334 21.2891 3.42334H6.54589V1.17436C6.54589 0.130319 5.28363 -0.392532 4.54535 0.3457L0.34325 4.5478C-0.114417 5.00547 -0.114417 5.74746 0.34325 6.20508L4.54535 10.4072C5.28358 11.1454 6.54589 10.6226 6.54589 9.57851V7.32959Z"
+                  fill="black" />
+              </svg>
+            </div>Voltar a lista de projetos
+          </a></div>
+        <h1 class="titulo-do-projeto">
+          Entre costuras e pixels: a identidade visual de uma marca de shorts jeans
+        </h1>
+        <p class="descricao-do-projeto">
+          A identidade visual da Mademoiselle foi criada para refletir exatamente o que a marca representa: a essência
+          da mulher moderna—autêntica, livre e empoderada. Atendendo ao desejo da cliente, desenvolvi uma identidade que
+          integra o digital e o físico, destacando um mix inovador de modelos e preços acessíveis. A nova identidade
+          valoriza a transparência e o atendimento humano, reforçando uma imagem poderosa e sem padrões. O resultado é
+          uma marca que convida mulheres a se expressarem com confiança e a abraçarem sua liberdade.
+        </p>
+      </div>
+      <div class="header-direito">
+        <img src="/assets/images/poster-mockup-mademoiselle.png" alt="Imagem de exemplo da marca Mademoiselle"
+          class="previa-do-projeto">
+      </div>
+      <div class="header-inferior">
+        <div class="tags-projeto">
+          <div class="tag-cliente">
+            <div class="icone-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                <path
+                  d="M12.5 14.0625C16.3818 14.0625 19.5312 10.9131 19.5312 7.03125C19.5312 3.14941 16.3818 0 12.5 0C8.61816 0 5.46875 3.14941 5.46875 7.03125C5.46875 10.9131 8.61816 14.0625 12.5 14.0625ZM18.75 15.625H16.0596C14.9756 16.123 13.7695 16.4062 12.5 16.4062C11.2305 16.4062 10.0293 16.123 8.94043 15.625H6.25C2.79785 15.625 0 18.4229 0 21.875V22.6562C0 23.9502 1.0498 25 2.34375 25H22.6562C23.9502 25 25 23.9502 25 22.6562V21.875C25 18.4229 22.2021 15.625 18.75 15.625Z"
+                  fill="black" />
+              </svg>
+            </div>
+            <p class="titulo-tag">Cliente</p>
+            <p class="desc-tag">Mademoiselle</p>
+          </div>
+          <div class="tag-segmento">
+            <div class="icone-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="25" viewBox="0 0 28 25" fill="none">
+                <path
+                  d="M25.6725 14.7128L27.9705 4.55659C28.1364 3.82329 27.5815 3.125 26.8329 3.125H7.73928L7.29371 0.937012C7.18268 0.39165 6.70493 0 6.15072 0H1.16667C0.522327 0 0 0.524658 0 1.17188V1.95312C0 2.60034 0.522327 3.125 1.16667 3.125H4.56376L7.97859 19.8943C7.16163 20.3662 6.61111 21.2511 6.61111 22.2656C6.61111 23.7758 7.82989 25 9.33334 25C10.8368 25 12.0556 23.7758 12.0556 22.2656C12.0556 21.5003 11.7422 20.8088 11.2377 20.3125H21.4289C20.9245 20.8088 20.6111 21.5003 20.6111 22.2656C20.6111 23.7758 21.8299 25 23.3333 25C24.8368 25 26.0556 23.7758 26.0556 22.2656C26.0556 21.183 25.4291 20.2475 24.5205 19.8044L24.7887 18.6191C24.9546 17.8858 24.3997 17.1875 23.651 17.1875H10.6029L10.2848 15.625H24.5349C25.0796 15.625 25.5518 15.2464 25.6725 14.7128Z"
+                  fill="black" />
+              </svg>
+            </div>
+            <p class="titulo-tag">Segmento</p>
+            <p class="desc-tag">Vestuário</p>
+          </div>
+          <div class="tag-servico">
+            <div class="icone-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                <path
+                  d="M25 6.25V1.5625C25 0.699707 24.3003 0 23.4375 0H18.75C17.8872 0 17.1875 0.699707 17.1875 1.5625H7.8125C7.8125 0.699707 7.11279 0 6.25 0H1.5625C0.699707 0 0 0.699707 0 1.5625V6.25C0 7.11279 0.699707 7.8125 1.5625 7.8125V17.1875C0.699707 17.1875 0 17.8872 0 18.75V23.4375C0 24.3003 0.699707 25 1.5625 25H6.25C7.11279 25 7.8125 24.3003 7.8125 23.4375H17.1875C17.1875 24.3003 17.8872 25 18.75 25H23.4375C24.3003 25 25 24.3003 25 23.4375V18.75C25 17.8872 24.3003 17.1875 23.4375 17.1875V7.8125C24.3003 7.8125 25 7.11279 25 6.25ZM20.3125 3.125H21.875V4.6875H20.3125V3.125ZM3.125 3.125H4.6875V4.6875H3.125V3.125ZM4.6875 21.875H3.125V20.3125H4.6875V21.875ZM21.875 21.875H20.3125V20.3125H21.875V21.875ZM20.3125 17.1875H18.75C17.8872 17.1875 17.1875 17.8872 17.1875 18.75V20.3125H7.8125V18.75C7.8125 17.8872 7.11279 17.1875 6.25 17.1875H4.6875V7.8125H6.25C7.11279 7.8125 7.8125 7.11279 7.8125 6.25V4.6875H17.1875V6.25C17.1875 7.11279 17.8872 7.8125 18.75 7.8125H20.3125V17.1875Z"
+                  fill="black" />
+              </svg>
+            </div>
+            <p class="titulo-tag">Serviço</p>
+            <p class="desc-tag">Identidade Visual</p>
+          </div>
+          <div class="tag-equipe">
+            <div class="icone-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" viewBox="0 0 35 25" fill="none">
+                <path
+                  d="M5.25 10.7143C7.18047 10.7143 8.75 9.11272 8.75 7.14286C8.75 5.17299 7.18047 3.57143 5.25 3.57143C3.31953 3.57143 1.75 5.17299 1.75 7.14286C1.75 9.11272 3.31953 10.7143 5.25 10.7143ZM29.75 10.7143C31.6805 10.7143 33.25 9.11272 33.25 7.14286C33.25 5.17299 31.6805 3.57143 29.75 3.57143C27.8195 3.57143 26.25 5.17299 26.25 7.14286C26.25 9.11272 27.8195 10.7143 29.75 10.7143ZM31.5 12.5H28C27.0375 12.5 26.168 12.8962 25.5336 13.5379C27.7375 14.7712 29.3016 16.9978 29.6406 19.6429H33.25C34.218 19.6429 35 18.8449 35 17.8571V16.0714C35 14.1016 33.4305 12.5 31.5 12.5ZM17.5 12.5C20.8852 12.5 23.625 9.70424 23.625 6.25C23.625 2.79576 20.8852 0 17.5 0C14.1148 0 11.375 2.79576 11.375 6.25C11.375 9.70424 14.1148 12.5 17.5 12.5ZM21.7 14.2857H21.2461C20.1086 14.8438 18.8453 15.1786 17.5 15.1786C16.1547 15.1786 14.8969 14.8438 13.7539 14.2857H13.3C9.82187 14.2857 7 17.1652 7 20.7143V22.3214C7 23.8002 8.17578 25 9.625 25H25.375C26.8242 25 28 23.8002 28 22.3214V20.7143C28 17.1652 25.1781 14.2857 21.7 14.2857ZM9.46641 13.5379C8.83203 12.8962 7.9625 12.5 7 12.5H3.5C1.56953 12.5 0 14.1016 0 16.0714V17.8571C0 18.8449 0.782031 19.6429 1.75 19.6429H5.35391C5.69844 16.9978 7.2625 14.7712 9.46641 13.5379Z"
+                  fill="black" />
+              </svg>
+            </div>
+            <p class="titulo-tag">Equipe</p>
+            <p class="desc-tag">2 Designers</p>
+          </div>
+          <div class="tag-cronograma">
+            <div class="icone-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                <path
+                  d="M12.1094 0C5.41992 0 0 5.41992 0 12.1094C0 18.7988 5.41992 24.2188 12.1094 24.2188C18.7988 24.2188 24.2188 18.7988 24.2188 12.1094C24.2188 5.41992 18.7988 0 12.1094 0ZM14.8975 17.0947L10.5908 13.9648C10.4395 13.8525 10.3516 13.6768 10.3516 13.4912V5.27344C10.3516 4.95117 10.6152 4.6875 10.9375 4.6875H13.2812C13.6035 4.6875 13.8672 4.95117 13.8672 5.27344V11.9971L16.9678 14.2529C17.2314 14.4434 17.2852 14.8096 17.0947 15.0732L15.7178 16.9678C15.5273 17.2266 15.1611 17.2852 14.8975 17.0947Z"
+                  fill="black" />
+              </svg>
+            </div>
+            <p class="titulo-tag">Cronograma</p>
+            <p class="desc-tag">2 meses</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projeto-about">
+      <div class="about-esquerda">
+        <h1 class="about-title">
+          Contexto do projeto e seus desafios
+        </h1>
+      </div>
+      <div class="about-direita">
+        <p class="about-desc">
+          Desenvolver a identidade visual da Mademoiselle foi traduzir a essência da mulher moderna, autêntica e livre,
+          inspirada pelo charme francês que evoca elegância e independência. Fundada com o propósito de oferecer um mix
+          inovador de peças diferenciadas a preços acessíveis, a marca nasceu para transformar a experiência de compra
+          em um convite ao empoderamento, valorizando a individualidade e a transparência em cada detalhe. Com os
+          valores de transparência, flexibilidade e humanidade, a nova identidade reforça a missão da Mademoiselle de
+          empoderar mulheres, consolidando sua presença e abrindo caminho para novas experiências e mercados.
+        </p>
+        <h3 class="about-list-title">
+          Desafios iniciais
+        </h3>
+        <div class="about-list-esquerda">
+          <p class="about-item-list">
+            - Traduzir a autenticidade e a liberdade em elementos visuais que dialogassem com a marca.
+          </p>
+          <p class="about-item-list">
+            - Equilibrar a comunicação para os ambientes digital e físico.
+          </p>
+          <p class="about-item-list">
+            - Destacar o mix de modelos e o diferencial das peças em um mercado competitivo.
+          </p>
+        </div>
+        <div class="about-list-direita">
+          <p class="about-item-list">
+            - Garantir a consistência visual em múltiplas plataformas e mídias.
+          </p>
+          <p class="about-item-list">
+            - Preparar a identidade para uma futura expansão nacional e internacional.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="projeto-metas">
+      <div class="metas-esquerda">
+        <h1 class="metas-title">
+          Metas de alto nível
+        </h1>
+      </div>
+      <div class="metas-direita">
+        <p class="metas-list">
+          Incorporar a elegância do charme francês e a autenticidade da mulher atual em elementos visuais autênticos.
+        </p>
+        <p class="metas-list">
+          Unir autenticidade, transparência e liberdade para transmitir uma mensagem de empoderamento e conexão.
+        </p>
+        <p class="metas-list">
+          Desenvolver uma marca que mantenha sua integridade e consistência em todas as aplicações, do digital ao
+          físico.
+        </p>
+        <p class="metas-list">
+          Destacar o mix inovador de peças, preços acessíveis e o atendimento humano, reforçando o posicionamento único
+          e a conexão emocional com o público.
+        </p>
+      </div>
+    </div>
+    <div class="projeto-conceito">
+      <div class="conceito-esquerda">
+        <h1 class="title-conceito">
+          Conceito
+          da marca
+        </h1>
+      </div>
+      <div class="conceito-direita">
+        <div class="content-conceito-direita-1">
+          <div class="conceito-proposito">
+            <h2 class="sub-title-conceito">
+              Propósito
+            </h2>
+            <p class="desc-conceito">
+              Empoderar mulheres através da moda, oferecendo peças que refletem autenticidade, liberdade e elegância
+              acessível. Mais do que vestir, a Mademoiselle busca inspirar confiança e autoestima, rompendo padrões.
+            </p>
+          </div>
+          <div class="conceito-visao">
+            <h2 class="sub-title-conceito">
+              Visão
+            </h2>
+            <p class="desc-conceito">
+              Ser referência no mercado de moda feminina, reconhecida por sua autenticidade, qualidade e acessibilidade,
+              expandindo sua presença do digital para lojas físicas e alcançando um público ainda maior.
+            </p>
+          </div>
+        </div>
+        <div class="content-conceito-direita-2">
+          <div class="conceito-missao">
+            <h2 class="sub-title-conceito">
+              Missão
+            </h2>
+            <p class="desc-conceito">
+              Proporcionar uma experiência de moda inovadora, com um mix exclusivo de shorts jeans, prezando pela
+              transparência, atendimento humanizado e preços acessíveis, garantindo que cada mulher se sinta confiante e
+              única.
+            </p>
+          </div>
+          <div class="conceito-valores">
+            <h2 class="sub-title-conceito">
+              Valores
+            </h2>
+            <div class="lists">
+              <div class="list-conceito-1">
+                <p class="list-item">
+                  - Autenticidade
+                </p>
+                <p class="list-item">
+                  - Transparência
+                </p>
+                <p class="list-item">
+                  - Empoderamento
+                </p>
+              </div>
+              <div class="list-conceito-2">
+                <p class="list-item">
+                  - Inovação
+                </p>
+                <p class="list-item">
+                  - Humanidade
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="bg-purple">
+    <section id="container">
+      <div class="projeto-conceito-simbolo">
+        <div class="simbolo-direita">
+          <h1 class="title-simbolo">
+            Conceito
+            do símbolo
+          </h1>
+        </div>
+        <div class="simbolo-esquerda">
+          <div class="simbolo-esquerda-1">
+            <div class="content-simbolo-esquerda-1">
+              <div class="letra-m-simbolo">
+                <h2 class="sub-title-simbolo">
+                  Letra M
+                </h2>
+                <p class="desc-simbolo">
+                  M de Mademoiselle
+                </p>
+                <img src="/assets/images/letra-m-simbolo.svg" alt="Simbolo mostrando a composição da letra M"
+                  class="simbolo-img">
+              </div>
+              <div class="ganchos-simbolo">
+                <h2 class="sub-title-simbolo">
+                  Ganchos
+                </h2>
+                <p class="desc-simbolo">
+                  Pendurar roupas
+                </p>
+                <img src="/assets/images/ganchos-simbolo.svg" alt="Simbolo mostrando a composição de ganchos"
+                  class="simbolo-img">
+              </div>
+              <div class="borboleta-simbolo">
+                <h2 class="sub-title-simbolo">
+                  Borboleta
+                </h2>
+                <p class="desc-simbolo">
+                  Liberdade
+                </p>
+                <img src="/assets/images/borboleta-simbolo.svg" alt="Simbolo mostrando a composição de ganchos"
+                  class="simbolo-img">
+              </div>
+            </div>
+          </div>
+          <div class="simbolo-esquerda-2">
+            <p class="desc-simbolo">
+              O símbolo da Mademoiselle foi desenvolvido a partir da fusão de três elementos-chave: a letra M,
+              representando o nome da marca; os ganchos, remetendo ao universo da moda e ao cuidado com os detalhes; e a
+              borboleta, simbolizando transformação, leveza e liberdade — valores essenciais para a identidade da marca.
+              A junção desses elementos resulta em um ícone elegante e memorável, que transmite autenticidade e reforça
+              a essência da Mademoiselle como uma marca que celebra a individualidade e a confiança feminina.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section id="container-top">
+    <div class="projeto-tipografia">
+      <div class="tipografia-esquerda">
+        <h1 class="title-tipografia">
+          Tipografia
+          da marca
+        </h1>
+        <p class="desc-tipografia">
+          As tipografias escolhidas para a Mademoiselle refletem a essência da marca, unindo modernidade, elegância e
+          autenticidade. A Red Hat Display, com seu estilo contemporâneo e forte presença visual, transmite sofisticação
+          e personalidade, garantindo uma identidade marcante. Já a Lato, com seus detalhes semi-arredondados, equilibra
+          o design com um toque de suavidade e refinamento, reforçando a acessibilidade e a confiança da marca. Juntas,
+          essas fontes criam uma comunicação visual harmoniosa, expressando a liberdade e o empoderamento que a
+          Mademoiselle busca representar.
+        </p>
+      </div>
+      <div class="tipografia-direita"></div>
+    </div>
+  </section>
+  <!--------------------- FOOTER ------------------------>
+  <footer id="contact" class="contact">
+    <div class="content-contact">
+      <h1 class="title-contact">
+        Que tal conversarmos sobre design, negócios ou até mesmo meus hobbies, como motos e jogos?
+      </h1>
+      <div class="social-contact">
+        <div class="linkedin-contact">
+          <a href="https://www.linkedin.com/in/julius-matheus/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+              <path
+                d="M24.1429 0H1.85134C0.829911 0 0 0.841518 0 1.87455V24.1254C0 25.1585 0.829911 26 1.85134 26H24.1429C25.1643 26 26 25.1585 26 24.1254V1.87455C26 0.841518 25.1643 0 24.1429 0ZM7.85804 22.2857H4.00446V9.87768H7.86384V22.2857H7.85804ZM5.93125 8.18304C4.69509 8.18304 3.69687 7.17902 3.69687 5.94866C3.69687 4.7183 4.69509 3.71429 5.93125 3.71429C7.16161 3.71429 8.16562 4.7183 8.16562 5.94866C8.16562 7.18482 7.16741 8.18304 5.93125 8.18304ZM22.3031 22.2857H18.4496V16.25C18.4496 14.8107 18.4205 12.9594 16.4473 12.9594C14.4393 12.9594 14.1317 14.5263 14.1317 16.1455V22.2857H10.2781V9.87768H13.975V11.5723H14.0272C14.5437 10.5973 15.8031 9.57009 17.6777 9.57009C21.5777 9.57009 22.3031 12.1411 22.3031 15.4839V22.2857Z"
+                fill="white" />
+            </svg>
+            <p>LinkedIn</p>
+          </a>
+        </div>
+        <div class="dribbble-contact">
+          <a href="https://dribbble.com/juliusmatheus" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+              <path
+                d="M5.23482 11.3866C5.75134 8.92589 7.40536 6.87723 9.62812 5.83259C9.83705 6.11696 11.2531 8.08437 12.5705 10.4174C8.85625 11.404 5.58884 11.3924 5.23482 11.3866ZM18.258 7.08036C16.308 5.35089 13.6558 4.69509 11.1429 5.30446C11.3634 5.60045 12.8027 7.56205 14.1027 9.94732C16.9232 8.88527 18.1129 7.28348 18.258 7.08036ZM8.1308 19.2679C10.4812 21.1018 13.5455 21.3978 16.0991 20.3125C15.983 19.6161 15.5187 17.1902 14.4045 14.3C11.2067 15.3911 8.96071 17.5732 8.1308 19.2679ZM13.8647 12.9884C13.6674 12.5357 13.4469 12.0888 13.2205 11.642C9.2625 12.8259 5.42054 12.7795 5.07232 12.7679C5.07232 12.8491 5.06652 12.9304 5.06652 13.0116C5.06652 15.0487 5.83839 16.9058 7.10357 18.3161C8.39196 16.1165 10.9978 13.7951 13.8647 12.9884ZM15.8902 13.9344C16.929 16.7839 17.3469 19.1054 17.4281 19.5871C19.2098 18.3857 20.475 16.4763 20.829 14.271C20.5621 14.1839 18.3741 13.5339 15.8902 13.9344ZM14.7121 11.1254C14.9906 11.6942 15.1937 12.1585 15.4085 12.6808C18.0491 12.35 20.6723 12.8781 20.9335 12.9362C20.9161 11.0616 20.2487 9.34375 19.1402 7.99732C18.9719 8.22366 17.6429 9.92411 14.7121 11.1254ZM26 2.78571V23.2143C26 24.7522 24.7522 26 23.2143 26H2.78571C1.24777 26 0 24.7522 0 23.2143V2.78571C0 1.24777 1.24777 0 2.78571 0H23.2143C24.7522 0 26 1.24777 26 2.78571ZM22.2857 13C22.2857 7.88125 18.1187 3.71429 13 3.71429C7.88125 3.71429 3.71429 7.88125 3.71429 13C3.71429 18.1187 7.88125 22.2857 13 22.2857C18.1187 22.2857 22.2857 18.1187 22.2857 13Z"
+                fill="white" />
+            </svg>
+            <p>Dribbble</p>
+          </a>
+        </div>
+        <div class="behance-contact">
+          <a href="https://www.behance.net/juliusmatheusdesign" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+              <path
+                d="M10.8237 15.1473C10.8237 16.2674 10.0112 16.6214 9.01295 16.6214H6.39554V13.5513H9.06518C10.1446 13.5571 10.8237 14.004 10.8237 15.1473ZM10.3768 10.371C10.3768 9.34375 9.5817 9.1 8.69955 9.1H6.40134V11.7H8.87946C9.7558 11.7 10.3768 11.317 10.3768 10.371ZM18.0549 11.7174C16.9929 11.7174 16.2848 12.379 16.2152 13.4411H19.825C19.7263 12.3674 19.1692 11.7174 18.0549 11.7174ZM26 2.78571V23.2143C26 24.7522 24.7522 26 23.2143 26H2.78571C1.24777 26 0 24.7522 0 23.2143V2.78571C0 1.24777 1.24777 0 2.78571 0H23.2143C24.7522 0 26 1.24777 26 2.78571ZM15.7683 8.87946H20.2835V7.78259H15.7683V8.87946ZM13.2728 15.2808C13.2728 13.8821 12.6112 12.675 11.2415 12.2862C12.2397 11.8103 12.7621 11.2589 12.7621 10.1388C12.7621 7.92187 11.108 7.38214 9.19866 7.38214H3.94643V18.525H9.34955C11.375 18.5134 13.2728 17.5442 13.2728 15.2808ZM22.0536 14.4219C22.0536 12.0366 20.6549 10.046 18.1304 10.046C15.6696 10.046 14.004 11.8915 14.004 14.3174C14.004 16.8304 15.5884 18.554 18.1304 18.554C20.0571 18.554 21.3049 17.6893 21.9085 15.8379H19.9527C19.7379 16.5286 18.8732 16.8884 18.2 16.8884C16.9 16.8884 16.221 16.1281 16.221 14.8397H22.0362C22.042 14.7063 22.0536 14.5612 22.0536 14.4219Z"
+                fill="white" />
+            </svg>
+            <p>Behance</p>
+          </a>
+        </div>
+        <div class="github-contact">
+          <a href="https://github.com/juliusmatheusdesign" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+              <path
+                d="M23.2143 0H2.78571C1.24777 0 0 1.24777 0 2.78571V23.2143C0 24.7522 1.24777 26 2.78571 26H23.2143C24.7522 26 26 24.7522 26 23.2143V2.78571C26 1.24777 24.7522 0 23.2143 0ZM16.0933 22.2683C15.6058 22.3554 15.4259 22.0536 15.4259 21.804C15.4259 21.4906 15.4375 19.8888 15.4375 18.5946C15.4375 17.6893 15.1357 17.1147 14.7817 16.8129C16.929 16.575 19.1924 16.279 19.1924 12.5705C19.1924 11.5143 18.8152 10.9862 18.2 10.3071C18.2987 10.0576 18.6295 9.03036 18.1013 7.69554C17.2946 7.44598 15.4491 8.73438 15.4491 8.73438C14.683 8.51964 13.8531 8.40937 13.0348 8.40937C12.2165 8.40937 11.3866 8.51964 10.6205 8.73438C10.6205 8.73438 8.775 7.44598 7.9683 7.69554C7.44018 9.02455 7.76518 10.0518 7.86964 10.3071C7.25446 10.9862 6.96429 11.5143 6.96429 12.5705C6.96429 16.2616 9.12902 16.575 11.2763 16.8129C10.9978 17.0625 10.7482 17.492 10.6612 18.1071C10.1098 18.3567 8.69955 18.7862 7.85804 17.3004C7.32991 16.3835 6.37812 16.308 6.37812 16.308C5.43795 16.2964 6.31429 16.9 6.31429 16.9C6.94107 17.1902 7.38214 18.3045 7.38214 18.3045C7.94509 20.0281 10.6379 19.4478 10.6379 19.4478C10.6379 20.2545 10.6496 21.5661 10.6496 21.804C10.6496 22.0536 10.4754 22.3554 9.98214 22.2683C6.15179 20.9857 3.47054 17.3411 3.47054 13.0812C3.47054 7.75357 7.54464 3.70848 12.8723 3.70848C18.2 3.70848 22.5179 7.75357 22.5179 13.0812C22.5237 17.3411 19.9237 20.9915 16.0933 22.2683ZM10.4 18.7223C10.2897 18.7455 10.1853 18.6991 10.1737 18.6237C10.1621 18.5366 10.2375 18.4612 10.3478 18.4379C10.458 18.4263 10.5625 18.4728 10.5741 18.5482C10.5915 18.6237 10.5161 18.6991 10.4 18.7223ZM9.84866 18.6701C9.84866 18.7455 9.76161 18.8094 9.64554 18.8094C9.51786 18.821 9.4308 18.7571 9.4308 18.6701C9.4308 18.5946 9.51786 18.5308 9.63393 18.5308C9.7442 18.5192 9.84866 18.583 9.84866 18.6701ZM9.05357 18.6063C9.03036 18.6817 8.91428 18.7165 8.81562 18.6817C8.70536 18.6585 8.62991 18.5714 8.65312 18.496C8.67634 18.4205 8.79241 18.3857 8.89107 18.4089C9.00714 18.4438 9.08259 18.5308 9.05357 18.6063ZM8.33973 18.2929C8.2875 18.3567 8.17723 18.3451 8.09018 18.258C8.00312 18.1826 7.97991 18.0723 8.03795 18.0201C8.09018 17.9562 8.20045 17.9679 8.2875 18.0549C8.36295 18.1304 8.39196 18.2464 8.33973 18.2929ZM7.81161 17.7647C7.75938 17.7996 7.66071 17.7647 7.59687 17.6777C7.53304 17.5906 7.53304 17.492 7.59687 17.4513C7.66071 17.3991 7.75938 17.4397 7.81161 17.5268C7.87545 17.6138 7.87545 17.7183 7.81161 17.7647ZM7.43438 17.2018C7.38214 17.254 7.29509 17.225 7.23125 17.167C7.16741 17.0915 7.1558 17.0045 7.20804 16.9638C7.26027 16.9116 7.34732 16.9406 7.41116 16.9987C7.475 17.0741 7.48661 17.1612 7.43438 17.2018ZM7.04554 16.7723C7.02232 16.8246 6.94687 16.8362 6.88304 16.7955C6.80759 16.7607 6.77277 16.6969 6.79598 16.6446C6.8192 16.6098 6.88304 16.5924 6.95848 16.6214C7.03393 16.6621 7.06875 16.7259 7.04554 16.7723Z"
+                fill="white" />
+            </svg>
+            <p>GitHub</p>
+          </a>
+        </div>
+      </div>
+      <div class="contact-btns">
+        <a href="./assets/pdf/cv-julius-matheus.pdf" target="_blank">
+          <div class="contact-cv-btn">Currículo</div>
+        </a>
+        <div class="contact-portfolio-btn">Portfólio PDF
+        </div>
+      </div>
+      <p class="copyright">Copyright © 2025 Julius Matheus.</p>
+    </div>
+  </footer>
+  <button id="scrollToTop" class="scroll-to-top" aria-label="Voltar para o topo">
+    ↑
+  </button>
+</body>
+
+</html>
