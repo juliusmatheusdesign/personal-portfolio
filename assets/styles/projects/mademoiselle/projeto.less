@@ -283,6 +283,7 @@
 
 .projeto-conceito {
   padding-bottom: 8rem;
+
   .conceito-esquerda {
     .title-conceito {
       max-width: 10.8125rem;
@@ -299,9 +300,13 @@
     padding-top: 5rem;
     display: flex;
     gap: 2rem;
+
     .content-conceito-direita-1 {
-      .conceito-proposito, .conceito-visao {
+
+      .conceito-proposito,
+      .conceito-visao {
         max-width: 37rem;
+
         .sub-title-conceito {
           color: @neutralcolors-90;
           font-family: @fluent-medium;
@@ -311,6 +316,7 @@
           line-height: 120%;
           padding-bottom: 2.5rem;
         }
+
         .desc-conceito {
           max-width: 37rem;
           color: @neutralcolors-40;
@@ -327,6 +333,7 @@
     .content-conceito-direita-2 {
       .conceito-missao {
         max-width: 37rem;
+
         .sub-title-conceito {
           color: @neutralcolors-90;
           font-family: @fluent-medium;
@@ -336,6 +343,7 @@
           line-height: 120%;
           padding-bottom: 2.5rem;
         }
+
         .desc-conceito {
           max-width: 37rem;
           color: @neutralcolors-40;
@@ -347,8 +355,10 @@
           padding-bottom: 2.5rem;
         }
       }
+
       .conceito-valores {
         max-width: 37rem;
+
         .sub-title-conceito {
           color: @neutralcolors-90;
           font-family: @fluent-medium;
@@ -358,10 +368,13 @@
           line-height: 120%;
           padding-bottom: 2.5rem;
         }
+
         .lists {
           display: flex;
           gap: 3.38rem;
-          .list-conceito-1, .list-conceito-2 {
+
+          .list-conceito-1,
+          .list-conceito-2 {
             .list-item {
               color: @neutralcolors-40;
               font-family: @font-inter;
@@ -387,6 +400,7 @@
 .projeto-conceito-simbolo {
   display: flex;
   gap: 13.25rem;
+
   .simbolo-direita {
     .title-simbolo {
       color: #EADDDA;
@@ -399,14 +413,17 @@
       width: 12.75rem;
     }
   }
-  
+
   .simbolo-esquerda {
     .simbolo-esquerda-1 {
       .content-simbolo-esquerda-1 {
         display: flex;
         gap: 8.5rem;
         padding-bottom: 5rem;
-        .letra-m-simbolo, .ganchos-simbolo, .borboleta-simbolo {
+
+        .letra-m-simbolo,
+        .ganchos-simbolo,
+        .borboleta-simbolo {
           .sub-title-simbolo {
             color: #C7B8FF;
             font-family: @fluent-regular;
@@ -416,6 +433,7 @@
             line-height: 120%;
             padding-bottom: 0.5rem;
           }
+
           .desc-simbolo {
             color: #EADDDA;
             font-family: @fluent-regular;
@@ -428,6 +446,7 @@
         }
       }
     }
+
     .simbolo-esquerda-2 {
       .desc-simbolo {
         color: #FFF7E9;
@@ -442,7 +461,10 @@
 }
 
 .projeto-tipografia {
-  padding: 7.5rem 0 7.12rem 0;
+  padding: 0 0 7.12rem 0;
+  display: flex;
+  gap: 8.5rem;
+
   .tipografia-esquerda {
     .title-tipografia {
       color: @neutralcolors-50;
@@ -454,6 +476,7 @@
       max-width: 12rem;
       padding-bottom: 2.5rem;
     }
+
     .desc-tipografia {
       max-width: 30.5rem;
       color: @neutralcolors-40;
@@ -462,6 +485,61 @@
       font-style: normal;
       font-weight: 400;
       line-height: 170%;
+      padding-top: 2.5rem;
+    }
+
+    .font-1 {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 2.5rem 0 2.5rem 0;
+      .name-font {
+        color: @neutralcolors-50;
+        font-family: "Red Hat Display", serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+      }
+      .example {
+        color: @neutralcolors-50;
+        font-family: "Red Hat Display", serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+      }
+    }
+
+    .font-2 {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      .name-font {
+        color: @neutralcolors-50;
+        font-family: "Lato", serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+      }
+      .example {
+        color: @neutralcolors-50;
+        font-family: "Lato", serif;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+      }
+    }
+  }
+
+  .tipografia-direita {
+    max-width: 37rem;
+    max-height: 68.75rem;
+
+    .img-tipografia {
+      border-radius: 0.5rem;
     }
   }
 }
