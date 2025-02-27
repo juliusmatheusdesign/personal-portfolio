@@ -493,6 +493,7 @@
       flex-direction: column;
       gap: 1rem;
       padding: 2.5rem 0 2.5rem 0;
+
       .name-font {
         color: @neutralcolors-50;
         font-family: "Red Hat Display", serif;
@@ -501,6 +502,7 @@
         font-weight: 400;
         line-height: 120%;
       }
+
       .example {
         color: @neutralcolors-50;
         font-family: "Red Hat Display", serif;
@@ -515,6 +517,7 @@
       display: flex;
       flex-direction: column;
       gap: 1rem;
+
       .name-font {
         color: @neutralcolors-50;
         font-family: "Lato", serif;
@@ -523,6 +526,7 @@
         font-weight: 400;
         line-height: 120%;
       }
+
       .example {
         color: @neutralcolors-50;
         font-family: "Lato", serif;
@@ -586,6 +590,122 @@
         color: @neutralcolors-40;
         transition: ease-in-out 0.3s;
       }
+    }
+  }
+}
+
+.bg-paleta-de-cores {
+  background-image: url("/assets/images/paleta-de-cores-mademoiselle.png");
+  max-height: 47.8125rem;
+  height: 47.8125rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.projeto-paleta-de-cores {
+  .paleta-de-cores-esquerda {
+    padding-top: 4rem;
+
+    .title-paleta-de-cores {
+      color: @neutralcolors-white;
+      font-family: @fluent-regular;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      max-width: 10.125rem;
+    }
+  }
+
+  .paleta-de-cores-direita {
+    display: flex;
+    gap: 11.25rem;
+    padding-top: 30.25rem;
+    justify-content: flex-end;
+
+    .info-cor {
+      display: flex;
+
+      .dados {
+        color: #EADDDA;
+        font-family: @fluent-regular;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        max-width: 10rem;
+      }
+    }
+
+    .info-cor-dk {
+      display: flex;
+
+      .dados {
+        color: #2F294E;
+        font-family: @fluent-regular;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        max-width: 10rem;
+      }
+    }
+  }
+}
+
+.projeto-construcao-logo {
+  display: flex;
+  gap: 12.5rem;
+  padding-bottom: 5rem;
+
+  .construcao-logo-esquerda {
+    .title-construcao-logo {
+      color: @neutralcolors-50;
+      font-family: @fluent-regular;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      max-width: 13.75rem;
+    }
+  }
+
+  .construcao-logo-direita {
+    max-width: 43.5rem;
+    color: @neutralcolors-40;
+    font-family: @font-inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+  }
+}
+
+.projeto-aplicacoes {
+  display: flex;
+  gap: 11.19rem;
+  padding-bottom: 5rem;
+  .aplicacoes-esquerda {
+    .title-aplicacoes {
+      max-width: 14.8125rem;
+      color: @neutralcolors-50;
+      font-family: @fluent-regular;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+    }
+  }
+
+  .aplicacoes-direita {
+    .desc-aplicacoes {
+      max-width: 43.5rem;
+      color: @neutralcolors-40;
+      font-family: @font-inter;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
     }
   }
 }
